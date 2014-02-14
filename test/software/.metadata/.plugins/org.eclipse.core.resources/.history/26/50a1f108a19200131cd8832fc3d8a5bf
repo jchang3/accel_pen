@@ -1,0 +1,73 @@
+//============================================================================
+// Name        : dtw_algorithm_test.cpp
+// Author      : Group 2 adapted from http://bytefish.de/blog/dynamic_time_warping/
+// Project     : ECE492 - Group 2 accelerometer pen
+// Description : DTW testing package
+//============================================================================
+
+#include <vector>
+#include <iostream>
+#include "dtw.h"
+#include <time.h>
+#include <fstream>
+#include <string>
+#include <sstream>
+using namespace std;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+
+    vector<double> t1;
+    vector<double> t2;
+
+//    for(int i=0; i<400; i++){
+//    	t1.push_back((double(i)));
+//    	t2.push_back((double(i+1)));
+//    }
+
+   string line;
+   ifstream file1 ("200hz.txt");
+   if(file1.is_open()){
+	   while(getline(file1,line)){
+
+		   istringstream linestream(line);
+		   string data;
+		   double val;
+		   //cout << linestream.str();
+		   while(linestream >> val){
+			  // cout << val << "";
+		       t1.push_back(val);
+		       //t2.push_back((double)0.0);
+		       t2.push_back(val+1);
+		   }
+
+	   }
+	   file1.close();
+   }
+   else{
+	   cout << "error opening file";
+   }
+
+
+    //double a1[] =  {0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0};
+    //double a2[] =  {0.0, 1.0, 2.0, 2.0, 4.0, 4.0, 6.0, 6.0, 8.0, 10.0};
+    //double a3[] =  {0.0, 0.0, 1.0, 0.0, 2.0, 5.0, 1.0, 1.0, 0.0, 3.0};
+
+    //vector<double> t1 (a1, a1 + sizeof(a1) / sizeof(double) );
+    //vector<double> t2 (a2, a2 + sizeof(a2) / sizeof(double) );
+    //vector<double> t3 (a3, a3 + sizeof(a3) / sizeof(double) );
+    //std::cout << "print2";
+    clock_t t;
+
+    t = clock();
+//    for( std::vector<double>::const_iterator i = t1.begin(); i != t1.end(); ++i)
+//    	std::cout << *i << ' ';
+    cout<< "dist_dtw = " << DTW::dtw(t1, t2) << endl;
+    //cout<< "dist_dtw = " << DTW::dtw(t1, t3) << endl;
+
+    t = clock() - t;
+    float time = ((float)t)/CLOCKS_PER_SEC;
+    cout<< "runtime = " <<time <<"s " <<t <<"clockticks " <<endl;
+
+	return 0;
+}

@@ -1,0 +1,18 @@
+
+**** Rebuild of configuration Debug for project dtw_test ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\dtw.o ..\src\dtw.cpp
+In file included from ..\src\dtw.cpp:25:0:
+..\src\dtw.h:73:57: warning: "/*" within comment [-Wcomment]
+         Dtw(int distanceFunction, PassType passType):/*(/*DistanceFunctionType distanceFunction double (*m_distanceFunction)(void* v1, void* v2) = &euclideanDistance,*/
+ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\dtw_test.o ..\src\dtw_test.cpp
+g++ -o dtw_test.exe src\dtw_test.o src\dtw.o
+Build complete for project dtw_test
+Time consumed: 912  ms.  
+
+**** Build of configuration Debug for project dtw_test ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for dtw_test

@@ -1,0 +1,383 @@
+!SESSION 2014-01-28 20:09:43.196 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-28 20:11:53.401
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 13 headers) in 0.37 sec: 1 declarations; 0 references; 14 unresolved inclusions; 0 syntax errors; 3 unresolved names (75.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-28 20:30:03.976
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 0 references; 15 unresolved inclusions; 0 syntax errors; 3 unresolved names (75.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-28 20:36:55.448
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.18 sec: 248 declarations; 454 references; 43 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-28 20:43:15.452
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.15 sec: 248 declarations; 454 references; 43 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-28 20:43:37.147
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.14 sec: 248 declarations; 454 references; 43 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-28 20:55:31.285
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.14 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+!SESSION 2014-01-29 18:02:10.633 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-29 18:03:26.936
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.42 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-29 18:03:33.140
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.15 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-29 18:07:50.627
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.15 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-29 18:10:56.915
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.14 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-29 18:11:33.669
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.14 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+!SESSION 2014-01-30 14:23:53.278 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:27:16.898
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.62 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:28:30.928
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.16 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:30:05.208
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.14 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:30:18.149
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 63 headers) in 0.14 sec: 248 declarations; 454 references; 42 unresolved inclusions; 59 syntax errors; 2 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:31:41.648
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 0 references; 14 unresolved inclusions; 0 syntax errors; 3 unresolved names (75.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:32:41.240
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 0 references; 14 unresolved inclusions; 0 syntax errors; 3 unresolved names (75.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:34:15.018
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 0 references; 14 unresolved inclusions; 0 syntax errors; 3 unresolved names (75.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:34:21.974
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 0 references; 14 unresolved inclusions; 0 syntax errors; 3 unresolved names (75.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:37:10.340
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 0 references; 14 unresolved inclusions; 0 syntax errors; 3 unresolved names (75.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:37:50.591
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 62 headers) in 1.22 sec: 4,537 declarations; 6,324 references; 42 unresolved inclusions; 81 syntax errors; 2,454 unresolved names (18.43%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:40:16.898
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 62 headers) in 0.64 sec: 4,537 declarations; 6,324 references; 42 unresolved inclusions; 81 syntax errors; 2,454 unresolved names (18.43%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:41:04.690
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 62 headers) in 0.61 sec: 4,537 declarations; 6,324 references; 42 unresolved inclusions; 81 syntax errors; 2,454 unresolved names (18.43%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:43:11.601
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 62 headers) in 0.77 sec: 4,537 declarations; 6,324 references; 42 unresolved inclusions; 81 syntax errors; 2,454 unresolved names (18.43%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:44:30.603
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 62 headers) in 0.59 sec: 4,537 declarations; 6,324 references; 42 unresolved inclusions; 81 syntax errors; 2,454 unresolved names (18.43%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-30 14:46:43.352
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 75 headers) in 1.09 sec: 6,714 declarations; 11,600 references; 21 unresolved inclusions; 0 syntax errors; 298 unresolved names (1.60%)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2014-01-30 14:54:39.374
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2014-01-30 14:54:39.375
+!MESSAGE Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2014-01-30 14:54:44.470
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2014-01-30 14:54:44.470
+!MESSAGE Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2014-01-31 12:11:14.322 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-31 12:12:58.913
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 91 headers) in 1.89 sec: 8,548 declarations; 15,110 references; 2 unresolved inclusions; 6 syntax errors; 78 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-31 12:13:11.678
+!MESSAGE Indexed 'dtw_algorithm_test' (1 sources, 91 headers) in 1.33 sec: 8,548 declarations; 15,110 references; 2 unresolved inclusions; 6 syntax errors; 78 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-31 12:22:08.552
+!MESSAGE Indexed 'dtw_algorithm_test' (2 sources, 91 headers) in 1.36 sec: 8,548 declarations; 15,110 references; 2 unresolved inclusions; 6 syntax errors; 78 unresolved names (0.33%)
+!SESSION 2014-01-31 12:23:10.230 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-31 12:24:07.499
+!MESSAGE Indexed 'dtw_algorithm_test' (2 sources, 91 headers) in 1.57 sec: 8,548 declarations; 15,110 references; 2 unresolved inclusions; 6 syntax errors; 78 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2014-01-31 12:42:23.742
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2014-01-31 12:42:23.743
+!MESSAGE Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2014-01-31 12:42:34.250
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2014-01-31 12:42:34.250
+!MESSAGE Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2014-01-31 12:42:41.741
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2014-01-31 12:42:41.741
+!MESSAGE Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\.project": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-01-31 12:43:32.404
+!MESSAGE Indexed 'test_dtw_algorithm' (0 sources, 23 headers) in 0.10 sec: 781 declarations; 1,415 references; 2 unresolved inclusions; 0 syntax errors; 15 unresolved names (0.68%)
+!SESSION 2014-01-31 14:41:06.488 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.debug.core 4 125 2014-01-31 15:08:51.599
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2014-02-10 14:48:06.383 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.dsf.ui 4 0 2014-02-10 15:42:00.123
+!MESSAGE Can't view memory on cost
+!STACK 1
+org.eclipse.debug.core.DebugException: Error evaluating memory address (ExecutionException).
+	at org.eclipse.cdt.dsf.debug.model.DsfMemoryBlockRetrieval.resolveMemoryAddress(DsfMemoryBlockRetrieval.java:528)
+	at org.eclipse.cdt.dsf.gdb.internal.memory.GdbMemoryBlockRetrieval.getMemoryBlock(GdbMemoryBlockRetrieval.java:163)
+	at org.eclipse.cdt.dsf.gdb.internal.memory.GdbMemoryBlockRetrieval.getExtendedMemoryBlock(GdbMemoryBlockRetrieval.java:103)
+	at org.eclipse.cdt.dsf.debug.internal.ui.viewmodel.actions.DsfViewMemoryHandler.showExpressionInMemoryView(DsfViewMemoryHandler.java:160)
+	at org.eclipse.cdt.dsf.debug.internal.ui.viewmodel.actions.DsfViewMemoryHandler.access$0(DsfViewMemoryHandler.java:142)
+	at org.eclipse.cdt.dsf.debug.internal.ui.viewmodel.actions.DsfViewMemoryHandler$1$1$1.run(DsfViewMemoryHandler.java:200)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: The result of expression evaluation "[0]" is not formatted correctly.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:114)
+	at org.eclipse.cdt.dsf.debug.model.DsfMemoryBlockRetrieval.resolveMemoryAddress(DsfMemoryBlockRetrieval.java:521)
+	... 6 more
+Caused by: org.eclipse.core.runtime.CoreException: The result of expression evaluation "[0]" is not formatted correctly.
+	... 8 more
+Caused by: java.lang.NumberFormatException: For input string: "]"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.math.BigInteger.<init>(Unknown Source)
+	at org.eclipse.cdt.dsf.debug.model.DsfMemoryBlockRetrieval$2$1.handleSuccess(DsfMemoryBlockRetrieval.java:498)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:353)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:298)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 5013 2014-02-10 15:42:00.124
+!MESSAGE Error evaluating memory address (ExecutionException).
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: The result of expression evaluation "[0]" is not formatted correctly.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:114)
+	at org.eclipse.cdt.dsf.debug.model.DsfMemoryBlockRetrieval.resolveMemoryAddress(DsfMemoryBlockRetrieval.java:521)
+	at org.eclipse.cdt.dsf.gdb.internal.memory.GdbMemoryBlockRetrieval.getMemoryBlock(GdbMemoryBlockRetrieval.java:163)
+	at org.eclipse.cdt.dsf.gdb.internal.memory.GdbMemoryBlockRetrieval.getExtendedMemoryBlock(GdbMemoryBlockRetrieval.java:103)
+	at org.eclipse.cdt.dsf.debug.internal.ui.viewmodel.actions.DsfViewMemoryHandler.showExpressionInMemoryView(DsfViewMemoryHandler.java:160)
+	at org.eclipse.cdt.dsf.debug.internal.ui.viewmodel.actions.DsfViewMemoryHandler.access$0(DsfViewMemoryHandler.java:142)
+	at org.eclipse.cdt.dsf.debug.internal.ui.viewmodel.actions.DsfViewMemoryHandler$1$1$1.run(DsfViewMemoryHandler.java:200)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.CoreException: The result of expression evaluation "[0]" is not formatted correctly.
+	... 8 more
+Caused by: java.lang.NumberFormatException: For input string: "]"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.math.BigInteger.<init>(Unknown Source)
+	at org.eclipse.cdt.dsf.debug.model.DsfMemoryBlockRetrieval$2$1.handleSuccess(DsfMemoryBlockRetrieval.java:498)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:353)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:298)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2014-02-12 14:08:00.902 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-02-12 14:22:22.856
+!MESSAGE Indexed 'test_dtw_scaled_int' (1 sources, 91 headers) in 1.71 sec: 8,548 declarations; 15,110 references; 2 unresolved inclusions; 6 syntax errors; 78 unresolved names (0.33%)

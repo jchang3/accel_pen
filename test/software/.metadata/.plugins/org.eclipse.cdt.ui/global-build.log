@@ -1,0 +1,529 @@
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdint:35:0,
+                 from ..\src\dtw.h:9,
+                 from ..\src\test_dtw_scaled_int.cpp:10:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+..\src\test_dtw_scaled_int.cpp: In function 'int main()':
+..\src\test_dtw_scaled_int.cpp:50:44: error: invalid initialization of reference of type 'const std::vector<int>&' from expression of type 'std::vector<double>'
+     cout<< "dist_dtw = " << DTW::dtw(t1, t2) << endl;
+                                            ^
+In file included from ..\src\test_dtw_scaled_int.cpp:10:0:
+..\src\dtw.h:15:13: error: in passing argument 1 of 'int32_t DTW::dtw(const std::vector<int>&, const std::vector<int>&)'
+     int32_t dtw(const std::vector<int32_t>& t1, const std::vector<int32_t>& t2);
+             ^
+Build error occurred, build is stopped
+Time consumed: 277  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdint:35:0,
+                 from ..\src\dtw.h:9,
+                 from ..\src\test_dtw_scaled_int.cpp:10:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+..\src\test_dtw_scaled_int.cpp: In function 'int main()':
+..\src\test_dtw_scaled_int.cpp:50:44: error: invalid initialization of reference of type 'const std::vector<int>&' from expression of type 'std::vector<double>'
+     cout<< "dist_dtw = " << DTW::dtw(t1, t2) << endl;
+                                            ^
+In file included from ..\src\test_dtw_scaled_int.cpp:10:0:
+..\src\dtw.h:15:13: error: in passing argument 1 of 'int32_t DTW::dtw(const std::vector<int>&, const std::vector<int>&)'
+     int32_t dtw(const std::vector<int32_t>& t1, const std::vector<int32_t>& t2);
+             ^
+Build error occurred, build is stopped
+Time consumed: 223  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\dtw.o ..\src\dtw.cpp
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdint:35:0,
+                 from ..\src\dtw.h:9,
+                 from ..\src\dtw.cpp:12:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+In file included from ..\src\dtw.cpp:12:0:
+..\src\dtw.h:15:5: error: 'int32_t' does not name a type
+     int32_t dtw(const std::vector<int32_t>& t1, const std::vector<int32_t>& t2);
+     ^
+Build error occurred, build is stopped
+Time consumed: 221  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\dtw.o ..\src\dtw.cpp
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdint:35:0,
+                 from ..\src\dtw.h:9,
+                 from ..\src\dtw.cpp:12:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+In file included from ..\src\dtw.cpp:12:0:
+..\src\dtw.h:15:5: error: 'int32_t' does not name a type
+     int32_t dtw(const std::vector<int32_t>& t1, const std::vector<int32_t>& t2);
+     ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\dtw.o ..\src\dtw.cpp
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdint:35:0,
+                 from ..\src\dtw.h:9,
+                 from ..\src\dtw.cpp:12:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+In file included from ..\src\dtw.cpp:12:0:
+..\src\dtw.h:15:5: error: 'int32_t' does not name a type
+     int32_t dtw(const std::vector<int32_t>& t1, const std::vector<int32_t>& t2);
+     ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdint:35:0,
+                 from ..\src\dtw.h:9,
+                 from ..\src\test_dtw_scaled_int.cpp:10:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+Build error occurred, build is stopped
+Time consumed: 279  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\dtw.o ..\src\dtw.cpp
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdint:35:0,
+                 from ..\src\dtw.h:9,
+                 from ..\src\dtw.cpp:12:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+In file included from ..\src\dtw.cpp:12:0:
+..\src\dtw.h:15:5: error: 'int32_t' does not name a type
+     int32_t dtw(const std::vector<int32_t>& t1, const std::vector<int32_t>& t2);
+     ^
+Build error occurred, build is stopped
+Time consumed: 276  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdint:35:0,
+                 from ..\src\dtw.h:9,
+                 from ..\src\test_dtw_scaled_int.cpp:10:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+Build error occurred, build is stopped
+Time consumed: 224  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+In file included from ..\src\test_dtw_scaled_int.cpp:10:0:
+..\src\dtw.h:9:18: fatal error: stdint: No such file or directory
+ #include <stdint>
+                  ^
+compilation terminated.
+Build error occurred, build is stopped
+Time consumed: 998  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+In file included from ..\src\test_dtw_scaled_int.cpp:10:0:
+..\src\dtw.h:9:18: fatal error: stdint: No such file or directory
+ #include <stdint>
+                  ^
+compilation terminated.
+Build error occurred, build is stopped
+Time consumed: 141  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\dtw.o ..\src\dtw.cpp
+In file included from ..\src\dtw.cpp:12:0:
+..\src\dtw.h:9:18: fatal error: stdint: No such file or directory
+ #include <stdint>
+                  ^
+compilation terminated.
+Build error occurred, build is stopped
+Time consumed: 156  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\dtw.o ..\src\dtw.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdint:35:0,
+                 from ..\src\test_dtw_scaled_int.cpp:15:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+Build error occurred, build is stopped
+Time consumed: 842  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 905  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 484  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 531  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 531  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 468  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 546  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 468  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 484  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 468  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+..\src\test_dtw_scaled_int.cpp: In function 'int main()':
+..\src\test_dtw_scaled_int.cpp:35:35: error: expected '>' before '(' token
+       std::cout << static_cast<int(val*10000+0.5) <<", " ;
+                                   ^
+Build error occurred, build is stopped
+Time consumed: 202  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 484  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 468  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+..\src\test_dtw_scaled_int.cpp: In function 'int main()':
+..\src\test_dtw_scaled_int.cpp:35:35: error: expected '>' before '(' token
+       std::cout << static_cast<int(val*10000+0.5) <<", " ;
+                                   ^
+Build error occurred, build is stopped
+Time consumed: 202  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 483  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 484  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 530  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 530  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 468  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 468  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 468  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_dtw_scaled_int.o ..\src\test_dtw_scaled_int.cpp
+g++ -o test_dtw_scaled_int.exe src\test_dtw_scaled_int.o src\dtw.o
+Build complete for project test_dtw_scaled_int
+Time consumed: 530  ms.  
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int
+
+**** Build of configuration Debug for project test_dtw_scaled_int ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_scaled_int

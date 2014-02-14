@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 1 resources to &apos;test_dtw_scaled_int&apos;" description="Move 1 resources to &apos;test_dtw_scaled_int&apos;" destination="/test_dtw_scaled_int" element1="src/200hz.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1392240700134" updateReferences="true"/>
+</session>
