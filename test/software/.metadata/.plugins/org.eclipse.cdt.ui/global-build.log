@@ -527,3 +527,1816 @@ Nothing to build for test_dtw_scaled_int
 
 **** Internal Builder is used for build               ****
 Nothing to build for test_dtw_scaled_int
+
+**** Rebuild of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_scaled_int.o ..\test_dtw_scaled_int.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 1819  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 494  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_scaled_int.o ..\test_dtw_scaled_int.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 541  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:34:56: error: expression cannot be used as a function
+         int window = static_cast<int>(0.1(std::max(m,n))+0.5);
+                                                        ^
+..\dtw.cpp:34:13: warning: unused variable 'window' [-Wunused-variable]
+         int window = static_cast<int>(0.1(std::max(m,n))+0.5);
+             ^
+Build error occurred, build is stopped
+Time consumed: 228  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:34:13: warning: unused variable 'window' [-Wunused-variable]
+         int window = static_cast<int>(0.1*(std::max(m,n))+0.5);
+             ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_scaled_int.o ..\test_dtw_scaled_int.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 811  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:35:9: error: 'print' was not declared in this scope
+         print window;
+         ^
+..\dtw.cpp:35:15: error: expected ';' before 'window'
+         print window;
+               ^
+..\dtw.cpp:34:13: warning: unused variable 'window' [-Wunused-variable]
+         int window = static_cast<int>(0.1*(std::max(m,n))+0.5);
+             ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 439  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:34:13: warning: unused variable 'window' [-Wunused-variable]
+         int window = static_cast<int>(0.1*(std::max(m,n))+0.5);
+             ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 489  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:35:13: warning: unused variable 'window' [-Wunused-variable]
+         int window = static_cast<int>(0.1*(std::max(m,n))+0.5);
+             ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 492  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:36:42: error: 'abs' was not declared in this scope
+         window = std::max(window, abs(n-m));
+                                          ^
+..\dtw.cpp:36:42: note: suggested alternative:
+In file included from ..\dtw.cpp:11:0:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:99:5: note:   'std::abs'
+     abs(_Tp __x)
+     ^
+Build error occurred, build is stopped
+Time consumed: 275  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:36:48: error: no matching function for call to 'max(int&, __gnu_cxx::__enable_if<true, double>::__type)'
+         window = std::max(window, std::abs(n-m));
+                                                ^
+..\dtw.cpp:36:48: note: candidates are:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note: template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)
+     max(const _Tp& __a, const _Tp& __b)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note: template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+Build error occurred, build is stopped
+Time consumed: 321  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:36:48: error: no matching function for call to 'max(int&, __gnu_cxx::__enable_if<true, double>::__type)'
+         window = std::max(window, std::abs(n-m));
+                                                ^
+..\dtw.cpp:36:48: note: candidates are:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note: template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)
+     max(const _Tp& __a, const _Tp& __b)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note: template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+Build error occurred, build is stopped
+Time consumed: 320  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:36:48: error: no matching function for call to 'max(int&, __gnu_cxx::__enable_if<true, double>::__type)'
+         window = std::max(window, std::abs(n-m));
+                                                ^
+..\dtw.cpp:36:48: note: candidates are:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note: template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)
+     max(const _Tp& __a, const _Tp& __b)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note: template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+Build error occurred, build is stopped
+Time consumed: 319  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 492  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:36:48: error: no matching function for call to 'max(int&, __gnu_cxx::__enable_if<true, double>::__type)'
+         window = std::max(window, std::abs(n-m));
+                                                ^
+..\dtw.cpp:36:48: note: candidates are:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note: template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)
+     max(const _Tp& __a, const _Tp& __b)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note: template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+Build error occurred, build is stopped
+Time consumed: 319  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:36:48: error: no matching function for call to 'max(int&, __gnu_cxx::__enable_if<true, double>::__type)'
+         window = std::max(window, std::abs(n-m));
+                                                ^
+..\dtw.cpp:36:48: note: candidates are:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note: template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)
+     max(const _Tp& __a, const _Tp& __b)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:216:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:60:0,
+                 from ..\dtw.cpp:9:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note: template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:260:5: note:   template argument deduction/substitution failed:
+..\dtw.cpp:36:48: note:   deduced conflicting types for parameter 'const _Tp' ('int' and '__gnu_cxx::__enable_if<true, double>::__type {aka double}')
+         window = std::max(window, std::abs(n-m));
+                                                ^
+Build error occurred, build is stopped
+Time consumed: 320  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:37:35: error: expected primary-expression before ')' token
+         window = std::max(window, );
+                                   ^
+..\dtw.cpp:36:13: warning: unused variable 'as' [-Wunused-variable]
+         int as = std::abs(n-m);
+             ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 490  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 488  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 493  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 546  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 492  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 489  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 492  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_scaled_int.o ..\test_dtw_scaled_int.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 545  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_scaled_int.o ..\test_dtw_scaled_int.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 541  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:73:29: error: 'printmatrix' was not declared in this scope
+         printmatrix(cost,m,n);
+                             ^
+Build error occurred, build is stopped
+Time consumed: 276  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:73:30: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int**' for argument '1' to 'void DTW::print_matrix(int**, int, int)'
+         print_matrix(cost,m,n);
+                              ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:73:32: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int**' for argument '1' to 'void DTW::print_matrix(int**, int, int)'
+         print_matrix(cost, m, n);
+                                ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:73:32: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int**' for argument '1' to 'void DTW::print_matrix(int**, int, int)'
+         print_matrix(cost, m, n);
+                                ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:73:33: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int**' for argument '1' to 'void DTW::print_matrix(int**, int, int)'
+         print_matrix(&cost, m, n);
+                                 ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:73:32: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int**' for argument '1' to 'void DTW::print_matrix(int**, int, int)'
+         print_matrix(cost, m, n);
+                                ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp:30:34: error: declaration of 'cost' as multidimensional array must have bounds for all dimensions except the first
+     void print_matrix(int cost[][], int n, int m){
+                                  ^
+..\dtw.cpp:30:35: error: expected ')' before ',' token
+     void print_matrix(int cost[][], int n, int m){
+                                   ^
+..\dtw.cpp:30:37: error: expected unqualified-id before 'int'
+     void print_matrix(int cost[][], int n, int m){
+                                     ^
+..\dtw.cpp:89:1: error: expected '}' at end of input
+ }
+ ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:73:32: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int**' for argument '1' to 'void DTW::print_matrix(int**, int, int)'
+         print_matrix(cost, m, n);
+                                ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:73:27: error: expected primary-expression before ']' token
+         print_matrix(cost[][n], m, n);
+                           ^
+Build error occurred, build is stopped
+Time consumed: 274  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:27: error: expected primary-expression before ']' token
+         print_matrix(cost[][n], m, n);
+                           ^
+Build error occurred, build is stopped
+Time consumed: 276  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:32: error: no matching function for call to 'print_matrix(int [(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)], int&, int&)'
+         print_matrix(cost, m, n);
+                                ^
+..\dtw.cpp:74:32: note: candidate is:
+..\dtw.cpp:31:10: note: template<unsigned int m, unsigned int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:32: note:   variable-sized array type 'int [(((sizetype)(((ssizetype)n) + -1)) + 1)]' is not a valid template argument
+         print_matrix(cost, m, n);
+                                ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:26: error: no matching function for call to 'print_matrix(int [(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)])'
+         print_matrix(cost);
+                          ^
+..\dtw.cpp:74:26: note: candidate is:
+..\dtw.cpp:31:10: note: template<unsigned int m, unsigned int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:26: note:   variable-sized array type 'int [(((sizetype)(((ssizetype)n) + -1)) + 1)]' is not a valid template argument
+         print_matrix(cost);
+                          ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:26: error: no matching function for call to 'print_matrix(int [(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)])'
+         print_matrix(cost);
+                          ^
+..\dtw.cpp:74:26: note: candidate is:
+..\dtw.cpp:31:10: note: template<int m, int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:26: note:   variable-sized array type 'int [(((sizetype)(((ssizetype)n) + -1)) + 1)]' is not a valid template argument
+         print_matrix(cost);
+                          ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp:31:45: error: declaration of 'int m'
+     void print_matrix(int (&cost)[m][n],int m, int n){
+                                             ^
+..\dtw.cpp:30:15: error:  shadows template parm 'int m'
+     template <int m, int n>
+               ^
+..\dtw.cpp:31:52: error: declaration of 'int n'
+     void print_matrix(int (&cost)[m][n],int m, int n){
+                                                    ^
+..\dtw.cpp:30:22: error:  shadows template parm 'int n'
+     template <int m, int n>
+                      ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int (&)[m][n], int, int)':
+..\dtw.cpp:31:10: error: declaration of 'int n'
+     void print_matrix(int (&cost)[m][n],int m, int n){
+          ^
+..\dtw.cpp:30:22: error:  shadows template parm 'int n'
+     template <int m, int n>
+                      ^
+..\dtw.cpp:31:10: error: declaration of 'int m'
+     void print_matrix(int (&cost)[m][n],int m, int n){
+          ^
+..\dtw.cpp:30:15: error:  shadows template parm 'int m'
+     template <int m, int n>
+               ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:32: error: no matching function for call to 'print_matrix(int [(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)], int&, int&)'
+         print_matrix(cost, m, n);
+                                ^
+..\dtw.cpp:74:32: note: candidate is:
+..\dtw.cpp:31:10: note: template<int m, int n> void DTW::print_matrix(int (&)[m][n], int, int)
+     void print_matrix(int (&cost)[m][n],int m, int n){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:32: note:   variable-sized array type 'int [(((sizetype)(((ssizetype)n) + -1)) + 1)]' is not a valid template argument
+         print_matrix(cost, m, n);
+                                ^
+Build error occurred, build is stopped
+Time consumed: 274  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:26: error: no matching function for call to 'print_matrix(int [(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)])'
+         print_matrix(cost);
+                          ^
+..\dtw.cpp:74:26: note: candidate is:
+..\dtw.cpp:31:10: note: template<int m, int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:26: note:   variable-sized array type 'int [(((sizetype)(((ssizetype)n) + -1)) + 1)]' is not a valid template argument
+         print_matrix(cost);
+                          ^
+Build error occurred, build is stopped
+Time consumed: 221  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:31: error: no matching function for call to 'print_matrix(int)'
+         print_matrix((int)cost);
+                               ^
+..\dtw.cpp:74:31: note: candidate is:
+..\dtw.cpp:31:10: note: template<int m, int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:31: note:   mismatched types 'int [m][n]' and 'int'
+         print_matrix((int)cost);
+                               ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:33: error: no matching function for call to 'print_matrix(int**)'
+         print_matrix((int**)cost);
+                                 ^
+..\dtw.cpp:74:33: note: candidate is:
+..\dtw.cpp:31:10: note: template<int m, int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:33: note:   mismatched types 'int [m][n]' and 'int**'
+         print_matrix((int**)cost);
+                                 ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:32: error: no matching function for call to 'print_matrix(int*)'
+         print_matrix((int*)cost);
+                                ^
+..\dtw.cpp:74:32: note: candidate is:
+..\dtw.cpp:31:10: note: template<int m, int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:32: note:   mismatched types 'int [m][n]' and 'int*'
+         print_matrix((int*)cost);
+                                ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:28: error: expected ')' before ';' token
+         print_matrix((cost);
+                            ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:26: error: no matching function for call to 'print_matrix(int [(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)])'
+         print_matrix(cost);
+                          ^
+..\dtw.cpp:74:26: note: candidate is:
+..\dtw.cpp:31:10: note: template<int m, int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:26: note:   variable-sized array type 'int [(((sizetype)(((ssizetype)n) + -1)) + 1)]' is not a valid template argument
+         print_matrix(cost);
+                          ^
+Build error occurred, build is stopped
+Time consumed: 273  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:26: error: no matching function for call to 'print_matrix(int [(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)])'
+         print_matrix(cost);
+                          ^
+..\dtw.cpp:74:26: note: candidate is:
+..\dtw.cpp:31:10: note: template<unsigned int m, unsigned int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:26: note:   variable-sized array type 'int [(((sizetype)(((ssizetype)n) + -1)) + 1)]' is not a valid template argument
+         print_matrix(cost);
+                          ^
+Build error occurred, build is stopped
+Time consumed: 273  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:32: error: no matching function for call to 'print_matrix(int&)'
+         print_matrix(cost[m][n]);
+                                ^
+..\dtw.cpp:74:32: note: candidate is:
+..\dtw.cpp:31:10: note: template<unsigned int m, unsigned int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:32: note:   mismatched types 'int [m][n]' and 'int'
+         print_matrix(cost[m][n]);
+                                ^
+Build error occurred, build is stopped
+Time consumed: 222  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:32: error: no matching function for call to 'print_matrix(int&)'
+         print_matrix(cost[m][n]);
+                                ^
+..\dtw.cpp:74:32: note: candidate is:
+..\dtw.cpp:31:10: note: template<unsigned int m, unsigned int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:32: note:   mismatched types 'int [m][n]' and 'int'
+         print_matrix(cost[m][n]);
+                                ^
+Build error occurred, build is stopped
+Time consumed: 274  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:26: error: no matching function for call to 'print_matrix(int [(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)])'
+         print_matrix(cost);
+                          ^
+..\dtw.cpp:74:26: note: candidate is:
+..\dtw.cpp:31:10: note: template<unsigned int m, unsigned int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:26: note:   variable-sized array type 'int [(((sizetype)(((ssizetype)n) + -1)) + 1)]' is not a valid template argument
+         print_matrix(cost);
+                          ^
+Build error occurred, build is stopped
+Time consumed: 271  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:36: error: no matching function for call to 'print_matrix(int&)'
+         print_matrix(cost[m-1][n-1]);
+                                    ^
+..\dtw.cpp:74:36: note: candidate is:
+..\dtw.cpp:31:10: note: template<unsigned int m, unsigned int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:36: note:   mismatched types 'int [m][n]' and 'int'
+         print_matrix(cost[m-1][n-1]);
+                                    ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:27: error: no matching function for call to 'print_matrix(int (*)[(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)])'
+         print_matrix(&cost);
+                           ^
+..\dtw.cpp:74:27: note: candidate is:
+..\dtw.cpp:31:10: note: template<unsigned int m, unsigned int n> void DTW::print_matrix(int (&)[m][n])
+     void print_matrix(int (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:27: note:   mismatched types 'int [m][n]' and 'int (*)[(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)]'
+         print_matrix(&cost);
+                           ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:26: error: no matching function for call to 'print_matrix(int [(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)])'
+         print_matrix(cost);
+                          ^
+..\dtw.cpp:74:26: note: candidate is:
+..\dtw.cpp:31:10: note: template<unsigned int m, unsigned int n> void DTW::print_matrix(size_t (&)[m][n])
+     void print_matrix(size_t (&cost)[m][n]){
+          ^
+..\dtw.cpp:31:10: note:   template argument deduction/substitution failed:
+..\dtw.cpp:74:26: note:   mismatched types 'size_t {aka unsigned int}' and 'int'
+         print_matrix(cost);
+                          ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:43: error: invalid types 'int[int]' for array subscript
+                        myfile << cost[i][j] << ", ";
+                                           ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:26: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int*' for argument '1' to 'void DTW::print_matrix(int*, int, int)'
+         print_matrix(cost);
+                          ^
+Build error occurred, build is stopped
+Time consumed: 274  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:43: error: invalid types 'int[int]' for array subscript
+                        myfile << cost[i][j] << ", ";
+                                           ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:27: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int*' for argument '1' to 'void DTW::print_matrix(int*, int, int)'
+         print_matrix(&cost);
+                           ^
+Build error occurred, build is stopped
+Time consumed: 271  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:43: error: invalid types 'int[int]' for array subscript
+                        myfile << cost[i][j] << ", ";
+                                           ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:31: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)m) + -1)) + 1)][(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int*' for argument '1' to 'void DTW::print_matrix(int*, int, int)'
+         print_matrix(&cost,m,n);
+                               ^
+Build error occurred, build is stopped
+Time consumed: 271  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:43: error: invalid types 'int[int]' for array subscript
+                        myfile << cost[i][j] << ", ";
+                                           ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:30: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int*' for argument '1' to 'void DTW::print_matrix(int*, int, int)'
+         print_matrix(cost,m,n);
+                              ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int&, int, int)':
+..\dtw.cpp:36:40: error: invalid types 'int[int]' for array subscript
+                        myfile << cost[i][j] << ", ";
+                                        ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:30: error: invalid initialization of non-const reference of type 'int&' from an rvalue of type 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]'
+         print_matrix(cost,m,n);
+                              ^
+..\dtw.cpp:31:10: error: in passing argument 1 of 'void DTW::print_matrix(int&, int, int)'
+     void print_matrix(int &cost, int m, int n){
+          ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int&, int, int)':
+..\dtw.cpp:36:40: error: invalid types 'int[int]' for array subscript
+                        myfile << cost[i][j] << ", ";
+                                        ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:42: error: invalid initialization of non-const reference of type 'int&' from an rvalue of type 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]'
+         print_matrix(cost, (int)m, (int)n);
+                                          ^
+..\dtw.cpp:31:10: error: in passing argument 1 of 'void DTW::print_matrix(int&, int, int)'
+     void print_matrix(int &cost, int m, int n){
+          ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:43: error: invalid types 'int[int]' for array subscript
+                        myfile << cost[i][j] << ", ";
+                                           ^
+..\dtw.cpp: In function 'int DTW::dtw(const std::vector<int>&, const std::vector<int>&)':
+..\dtw.cpp:74:42: error: cannot convert 'int (*)[(((sizetype)(((ssizetype)n) + -1)) + 1)]' to 'int*' for argument '1' to 'void DTW::print_matrix(int*, int, int)'
+         print_matrix(cost, (int)m, (int)n);
+                                          ^
+Build error occurred, build is stopped
+Time consumed: 270  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:43: error: invalid types 'int[int]' for array subscript
+                        myfile << cost[i][j] << ", ";
+                                           ^
+Build error occurred, build is stopped
+Time consumed: 271  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In lambda function:
+..\dtw.cpp:36:43: error: expected '{' before '<<' token
+                        myfile << cost*[j] << ", ";
+                                           ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:43: warning: lambda expressions only available with -std=c++11 or -std=gnu++11 [enabled by default]
+..\dtw.cpp:36:38: error: no match for 'operator*' (operand types are 'int*' and 'DTW::print_matrix(int*, int, int)::__lambda0')
+                        myfile << cost*[j] << ", ";
+                                      ^
+Build error occurred, build is stopped
+Time consumed: 273  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:41: error: invalid type argument of unary '*' (have 'int')
+                        myfile << *cost[j] << ", ";
+                                         ^
+Build error occurred, build is stopped
+Time consumed: 221  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:44: error: invalid types 'int[int]' for array subscript
+                        myfile << *cost[i][j] << ", ";
+                                            ^
+Build error occurred, build is stopped
+Time consumed: 221  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:41: error: invalid type argument of unary '*' (have 'int')
+                        myfile << *cost[j] << ", ";
+                                         ^
+Build error occurred, build is stopped
+Time consumed: 219  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In lambda function:
+..\dtw.cpp:36:43: error: expected '{' before '<<' token
+                        myfile << cost*[j] << ", ";
+                                           ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:43: warning: lambda expressions only available with -std=c++11 or -std=gnu++11 [enabled by default]
+..\dtw.cpp:36:38: error: no match for 'operator*' (operand types are 'int*' and 'DTW::print_matrix(int*, int, int)::__lambda0')
+                        myfile << cost*[j] << ", ";
+                                      ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+..\dtw.cpp: In function 'void DTW::print_matrix(int*, int, int)':
+..\dtw.cpp:36:43: error: invalid types 'int[int]' for array subscript
+                        myfile << cost[i][j] << ", ";
+                                           ^
+Build error occurred, build is stopped
+Time consumed: 220  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 493  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_scaled_int.o ..\test_dtw_scaled_int.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 542  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_scaled_int.o ..\test_dtw_scaled_int.cpp
+..\test_dtw_scaled_int.cpp: In function 'int main()':
+..\test_dtw_scaled_int.cpp:36:42: error: expected ')' before ';' token
+          t2.push_back(static_cast<int>(0);
+                                          ^
+Build error occurred, build is stopped
+Time consumed: 222  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_scaled_int.o ..\test_dtw_scaled_int.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 542  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_scaled_int.o ..\test_dtw_scaled_int.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 540  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 489  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 492  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 491  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 492  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 494  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 492  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 491  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+..\dtw.cpp:16:0: warning: "INFINITY" redefined [enabled by default]
+ #define INFINITY 10000000
+ ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cmath:44:0,
+                 from ..\dtw.cpp:11:
+c:\mingw\include\math.h:276:0: note: this is the location of the previous definition
+ #define INFINITY __builtin_inf()
+ ^
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 495  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 493  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+g++ -o test_dtw_band.exe test_dtw_scaled_int.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 513  ms.  
+
+**** Build of configuration Debug for project test_dtw_band ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for test_dtw_band

@@ -381,3 +381,13 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY org.eclipse.cdt.core 1 0 2014-02-12 14:22:22.856
 !MESSAGE Indexed 'test_dtw_scaled_int' (1 sources, 91 headers) in 1.71 sec: 8,548 declarations; 15,110 references; 2 unresolved inclusions; 6 syntax errors; 78 unresolved names (0.33%)
+!SESSION 2014-02-21 10:56:53.839 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-02-21 12:16:31.070
+!MESSAGE Indexed 'test_dtw_band' (0 sources, 23 headers) in 0.36 sec: 781 declarations; 1,415 references; 2 unresolved inclusions; 0 syntax errors; 15 unresolved names (0.68%)
