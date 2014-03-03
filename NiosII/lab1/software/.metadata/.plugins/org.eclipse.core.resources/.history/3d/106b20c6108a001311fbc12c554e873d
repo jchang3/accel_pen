@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : dtw_test.cpp
+// Author      : James Chang
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	static const int arr[] = {16,2,77,29};
+	vector<int> vec (arr, arr + sizeof(arr) / sizeof(arr[0]) );
+
+	return 0;
+}

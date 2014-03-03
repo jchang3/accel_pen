@@ -1,0 +1,31 @@
+
+**** Build of configuration Nios II for project test_program_to_flash ****
+
+make all 
+Info: Building C:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp/
+make --no-print-directory -C C:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp/
+[BSP build complete]
+Info: Compiling hello_ucosii.c to obj/default/hello_ucosii.o
+nios2-elf-gcc -xc -MP -MMD -c -IC:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp//UCOSII/inc -IC:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp//HAL/inc -IC:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp/ -IC:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_ucosii.o hello_ucosii.c
+hello_ucosii.c: In function 'taskLCD':
+hello_ucosii.c:63: warning: implicit declaration of function 'alt_printf'
+hello_ucosii.c:67: warning: comparison between pointer and integer
+hello_ucosii.c: In function 'taskSW':
+hello_ucosii.c:87: warning: passing argument 2 of 'OSQPost' makes pointer from integer without a cast
+hello_ucosii.c:89: warning: passing argument 2 of 'OSQPost' makes pointer from integer without a cast
+hello_ucosii.c: In function 'taskRS232':
+hello_ucosii.c:110: warning: initialization makes integer from pointer without a cast
+hello_ucosii.c:134: warning: passing argument 3 of 'alt_up_rs232_read_data' from incompatible pointer type
+Info: Linking test_program_to_flash.elf
+hello_ucosii.c: In function 'main':
+nios2-elf-g++  -T'C:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp//linker.x' -msys-crt0='C:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -LC:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp/   -Wl,-Map=test_program_to_flash.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o test_program_to_flash.elf obj/default/hello_ucosii.o -lm 
+hello_ucosii.c:145: warning: passing argument 1 of 'OSQCreate' from incompatible pointer type
+nios2-elf-insert test_program_to_flash.elf --thread_model ucosii --cpu_name nios2_qsys_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1909048 --timestamp 1393791395 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name niosII_system --quartus_project_dir "C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project" --jdi C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project/accelerometer_pen.jdi --sopcinfo C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project/niosII_system.sopcinfo
+hello_ucosii.c:146: warning: passing argument 1 of 'OSQCreate' from incompatible pointer type
+Info: (test_program_to_flash.elf) 119 KBytes program size (code + initialized data).
+Info:                             8065 KBytes free for stack + heap.
+Info: Creating test_program_to_flash.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source test_program_to_flash.elf >test_program_to_flash.objdump
+[test_program_to_flash build complete]
+
+**** Build Finished ****

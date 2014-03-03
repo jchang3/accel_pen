@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project test_nioII_sram ****
+
+make all 
+Info: Building ../test_nioII_sram_bsp/
+make --no-print-directory -C ../test_nioII_sram_bsp/
+[BSP build complete]
+[test_nioII_sram build complete]
+
+**** Build Finished ****
