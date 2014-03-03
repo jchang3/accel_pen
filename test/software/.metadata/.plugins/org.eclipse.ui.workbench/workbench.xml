@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="34" version="2.0">
+<workbench progressCount="35" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1183" x="193" y="29">
 <fastViewData fastViewLocation="1024"/>
@@ -8,18 +8,19 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="153" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="167" y="22"/>
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="89" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.make.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -28,36 +29,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="dtw.cpp" partName="dtw.cpp" path="C:/Users/jchang3/Documents/test/software/test_dtw_scaled_int/src/dtw.cpp" title="dtw.cpp" tooltip="test_dtw_scaled_int/src/dtw.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test_dtw_scaled_int/src/dtw.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="439" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="dtw.h" partName="dtw.h" path="C:/Users/jchang3/Documents/test/software/test_dtw_scaled_int/src/dtw.h" title="dtw.h" tooltip="test_dtw_scaled_int/src/dtw.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test_dtw_scaled_int/src/dtw.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="383" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="test_dtw_scaled_int.cpp" partName="test_dtw_scaled_int.cpp" path="C:/Users/jchang3/Documents/test/software/test_dtw_scaled_int/src/test_dtw_scaled_int.cpp" title="test_dtw_scaled_int.cpp" tooltip="test_dtw_scaled_int/src/test_dtw_scaled_int.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test_dtw_scaled_int/src/test_dtw_scaled_int.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="754" selectionTopPixel="213"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="200hz.txt" partName="200hz.txt" path="C:/Users/jchang3/Documents/test/software/test_dtw_scaled_int/200hz.txt" title="200hz.txt" tooltip="test_dtw_scaled_int/200hz.txt" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test_dtw_scaled_int/200hz.txt"/>
-<editorState selectionHorizontalPixel="20467" selectionLength="0" selectionOffset="23" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="example.txt" partName="example.txt" path="C:/Users/jchang3/Documents/test/software/test_dtw_scaled_int/example.txt" title="example.txt" tooltip="test_dtw_scaled_int/example.txt" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test_dtw_scaled_int/example.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="100557" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
@@ -103,10 +78,11 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Errors (2 items)"/>
+<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="444"/>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="249" org.eclipse.ui.ide.resourceField="123" org.eclipse.ui.ide.severityAndDescriptionField="525"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -119,7 +95,7 @@
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.altera.sbtgui.ui.cPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.altera.sbtgui.ui.cPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -421,168 +397,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test_dtw_scaled_int/src/test_dtw_scaled_int.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test_dtw_scaled_int/src/dtw.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test_dtw_scaled_int/src/dtw.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test_dtw_scaled_int/src/test_dtw_scaled_int.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/test_dtw_scaled_int/200hz.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test_dtw_scaled_int/src/dtw.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test_dtw_algorithm/test_dtw_algorithm.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/test_dtw_scaled_int/example.txt"/>
-</editors>
-<item historyLabel="test_dtw_scaled_int.cpp" index="0">
-<position info="not_deleted" x="554" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="2">
-<position info="not_deleted" x="434" y="0"/>
-</item>
-<item historyLabel="dtw.cpp" index="1">
-<position info="not_deleted" x="552" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="2">
-<position info="not_deleted" x="383" y="17"/>
-</item>
-<item historyLabel="dtw.cpp" index="1">
-<position info="not_deleted" x="460" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="2">
-<position info="not_deleted" x="402" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="0">
-<position info="not_deleted" x="989" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="2">
-<position info="not_deleted" x="383" y="17"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="0">
-<position info="not_deleted" x="972" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="2">
-<position info="not_deleted" x="513" y="3"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="0">
-<position info="not_deleted" x="968" y="3"/>
-</item>
-<item historyLabel="dtw.cpp" index="1">
-<position info="not_deleted" x="855" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="2">
-<position info="not_deleted" x="216" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="0">
-<position info="not_deleted" x="943" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="2">
-<position info="not_deleted" x="216" y="0"/>
-</item>
-<item historyLabel="dtw.cpp" index="1">
-<position info="not_deleted" x="855" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="1005" y="0"/>
-</item>
-<item historyLabel="200hz.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="5">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="dtw.cpp" index="1">
-<position info="not_deleted" x="439" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="5">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="1075" y="0"/>
-</item>
-<item historyLabel="test_dtw_algorithm.cpp" index="6">
-<position/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="1099" y="0"/>
-</item>
-<item historyLabel="example.txt" index="7">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="200hz.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="951" y="0"/>
-</item>
-<item historyLabel="200hz.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="951" y="0"/>
-</item>
-<item historyLabel="200hz.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="858" y="0"/>
-</item>
-<item historyLabel="test_dtw_algorithm.cpp" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="853" y="0"/>
-</item>
-<item historyLabel="example.txt" index="7">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="example.txt" index="7">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="5">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="853" y="0"/>
-</item>
-<item historyLabel="dtw.cpp" index="1">
-<position info="not_deleted" x="439" y="0"/>
-</item>
-<item historyLabel="200hz.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="dtw.h" index="5">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="948" y="0"/>
-</item>
-<item historyLabel="example.txt" index="7">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="200hz.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="1068" y="0"/>
-</item>
-<item historyLabel="200hz.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item historyLabel="example.txt" index="7">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="1059" y="0"/>
-</item>
-<item historyLabel="example.txt" index="7">
-<position info="not_deleted" x="100557" y="0"/>
-</item>
-<item historyLabel="200hz.txt" index="4">
-<position info="not_deleted" x="23" y="0"/>
-</item>
-<item active="true" historyLabel="test_dtw_scaled_int.cpp" index="3">
-<position info="not_deleted" x="1059" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -600,6 +415,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="linker.h" tooltip="test_flash_write_bsp/linker.h">
+<persistable path="/test_flash_write_bsp/linker.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system.h" tooltip="test_flash_write_bsp/system.h">
+<persistable path="/test_flash_write_bsp/system.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_ucosii.c" tooltip="test_flash_write/hello_ucosii.c">
+<persistable path="/test_flash_write/hello_ucosii.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="test_dtw_algorithm.cpp" tooltip="test_dtw_algorithm/test_dtw_algorithm.cpp">
 <persistable path="/test_dtw_algorithm/test_dtw_algorithm.cpp"/>
 </file>
@@ -608,9 +432,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="200hz.txt" tooltip="test_dtw_scaled_int/200hz.txt">
 <persistable path="/test_dtw_scaled_int/200hz.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="test_dtw_scaled_int.cpp" tooltip="test_dtw_scaled_int/src/test_dtw_scaled_int.cpp">
-<persistable path="/test_dtw_scaled_int/src/test_dtw_scaled_int.cpp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dtw.h" tooltip="test_dtw_scaled_int/src/dtw.h">
 <persistable path="/test_dtw_scaled_int/src/dtw.h"/>
@@ -632,18 +453,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stl_iterator.h" tooltip="C:\MinGW\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h">
 <persistable uri="file:/C:/MinGW/lib/gcc/mingw32/4.8.1/include/c++/bits/stl_iterator.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stl_vector.h" tooltip="C:\MinGW\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_vector.h">
-<persistable uri="file:/C:/MinGW/lib/gcc/mingw32/4.8.1/include/c++/bits/stl_vector.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ios_base.h" tooltip="C:\MinGW\lib\gcc\mingw32\4.8.1\include\c++\bits\ios_base.h">
-<persistable uri="file:/C:/MinGW/lib/gcc/mingw32/4.8.1/include/c++/bits/ios_base.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="200hz.txt" tooltip="test_dtw_algorithm/200hz.txt">
-<persistable path="/test_dtw_algorithm/200hz.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dtw.h" tooltip="test_dtw_algorithm/dtw.h">
-<persistable path="/test_dtw_algorithm/dtw.h"/>
 </file>
 </mruList>
 </workbench>
