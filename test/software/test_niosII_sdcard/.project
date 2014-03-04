@@ -3,7 +3,6 @@
 	<name>test_niosII_sdcard</name>
 	<comment></comment>
 	<projects>
-		<project>test_niosII_sdcard_bsp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

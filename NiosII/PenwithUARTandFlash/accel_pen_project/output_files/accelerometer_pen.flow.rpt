@@ -1,5 +1,5 @@
 Flow report for accelerometer_pen
-Sat Mar 01 15:59:49 2014
+Mon Mar 03 14:27:08 2014
 Quartus II 32-bit Version 12.1 Build 243 01/31/2013 Service Pack 1.33 SJ Full Version
 
 
@@ -38,17 +38,17 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------------------+
 ; Flow Summary                                                                           ;
 +------------------------------------+---------------------------------------------------+
-; Flow Status                        ; Successful - Sat Mar 01 15:59:46 2014             ;
+; Flow Status                        ; Successful - Mon Mar 03 14:27:05 2014             ;
 ; Quartus II 32-bit Version          ; 12.1 Build 243 01/31/2013 SP 1.33 SJ Full Version ;
 ; Revision Name                      ; accelerometer_pen                                 ;
 ; Top-level Entity Name              ; accel_pen                                         ;
 ; Family                             ; Cyclone II                                        ;
 ; Device                             ; EP2C35F672C6                                      ;
 ; Timing Models                      ; Final                                             ;
-; Total logic elements               ; 3,460 / 33,216 ( 10 % )                           ;
-;     Total combinational functions  ; 3,257 / 33,216 ( 10 % )                           ;
-;     Dedicated logic registers      ; 1,897 / 33,216 ( 6 % )                            ;
-; Total registers                    ; 2071                                              ;
+; Total logic elements               ; 3,467 / 33,216 ( 10 % )                           ;
+;     Total combinational functions  ; 3,264 / 33,216 ( 10 % )                           ;
+;     Dedicated logic registers      ; 1,901 / 33,216 ( 6 % )                            ;
+; Total registers                    ; 2075                                              ;
 ; Total pins                         ; 125 / 475 ( 26 % )                                ;
 ; Total virtual pins                 ; 0                                                 ;
 ; Total memory bits                  ; 144,384 / 483,840 ( 30 % )                        ;
@@ -62,7 +62,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/01/2014 15:58:13 ;
+; Start date & time ; 03/03/2014 14:25:30 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; accelerometer_pen   ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+-------------------+-------------+------------+
 ; Assignment Name                     ; Value                                 ; Default Value     ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------+-------------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 116530611285.139371469205672          ; --                ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 116530611285.139388192902328          ; --                ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --                ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --                ; --          ; --         ;
 ; PARTITION_COLOR                     ; 2147039                               ; --                ; accel_pen   ; Top        ;
@@ -91,11 +91,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:02     ; 1.0                     ; 476 MB              ; 00:00:40                           ;
-; Fitter                    ; 00:00:23     ; 2.4                     ; 561 MB              ; 00:00:27                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 374 MB              ; 00:00:02                           ;
+; Analysis & Synthesis      ; 00:01:02     ; 1.0                     ; 480 MB              ; 00:00:38                           ;
+; Fitter                    ; 00:00:26     ; 2.1                     ; 560 MB              ; 00:00:28                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 370 MB              ; 00:00:03                           ;
 ; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 375 MB              ; 00:00:01                           ;
-; Total                     ; 00:01:30     ; --                      ; --                  ; 00:01:10                           ;
+; Total                     ; 00:01:32     ; --                      ; --                  ; 00:01:10                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

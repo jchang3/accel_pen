@@ -87,11 +87,11 @@ ACDS_VERSION := 12.1sp1
 
 # Quartus Generated JDI File. Required for resolving node instance ID's with 
 # design component names. 
-JDI_FILE := $(ABS_BSP_ROOT_DIR)/../../../NiosII/SDCard/accel_pen_project/accelerometer_pen.jdi
+JDI_FILE := C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project/accelerometer_pen.jdi
 
 # Qsys--generated SOPCINFO file. Required for resolving node instance ID's with 
 # design component names. 
-SOPCINFO_FILE := $(ABS_BSP_ROOT_DIR)/../../../NiosII/SDCard/accel_pen_project/niosII_system.sopcinfo
+SOPCINFO_FILE := C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project/niosII_system.sopcinfo
 
 # Big-Endian operation. 
 # setting BIG_ENDIAN is false
@@ -102,14 +102,14 @@ BSP_CRT0 := $(ALT_LIBRARY_ROOT_DIR)/obj/HAL/src/crt0.o
 
 # Name of BSP library as provided to linker using the "-msys-lib" flag or 
 # linker script GROUP command. 
-# setting BSP_SYS_LIB is hal_bsp
-BSP_SYS_LIB := hal_bsp
-ELF_PATCH_FLAG  += --thread_model hal
+# setting BSP_SYS_LIB is ucosii_bsp
+BSP_SYS_LIB := ucosii_bsp
+ELF_PATCH_FLAG  += --thread_model ucosii
 
 # Type identifier of the BSP library 
-# setting BSP_TYPE is hal
+# setting BSP_TYPE is ucosii
 ALT_CPPFLAGS += -D__hal__
-BSP_TYPE := hal
+BSP_TYPE := ucosii
 
 # CPU Name 
 # setting CPU_NAME is nios2_qsys_0
@@ -339,13 +339,14 @@ ELF_PATCH_FLAG  += --stdout_dev jtag_uart_0
 #                 SOFTWARE COMPONENT & DRIVER INCLUDE PATHS
 #------------------------------------------------------------------------------
 
+ALT_INCLUDE_DIRS += $(ALT_LIBRARY_ROOT_DIR)/UCOSII/inc
 ALT_INCLUDE_DIRS += $(ALT_LIBRARY_ROOT_DIR)/HAL/inc
 
 #------------------------------------------------------------------------------
 #        SOFTWARE COMPONENT & DRIVER PRODUCED ALT_CPPFLAGS ADDITIONS
 #------------------------------------------------------------------------------
 
-ALT_CPPFLAGS += -DALT_SINGLE_THREADED
+ALT_CPPFLAGS += -D__ucosii__
 
 #END MANAGED
 

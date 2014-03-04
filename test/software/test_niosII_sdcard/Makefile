@@ -142,7 +142,7 @@ ACDS_VERSION := 12.1sp1
 ELF := test_niosII_sdcard.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS := hello_ucosii.c
+C_SRCS := test_niosII_sdcard.c
 CXX_SRCS :=
 ASM_SRCS :=
 
@@ -177,7 +177,7 @@ CRT0 :=
 SYS_LIB :=
 
 # Define path to the root of the BSP.
-BSP_ROOT_DIR := ../test_niosII_sdcard_bsp/
+BSP_ROOT_DIR := C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_bsp/
 
 # List of application specific include directories, library directories and library names
 APP_INCLUDE_DIRS :=
@@ -188,7 +188,7 @@ APP_LIBRARY_NAMES :=
 BUILD_PRE_PROCESS :=
 BUILD_POST_PROCESS :=
 
-QUARTUS_PROJECT_DIR := ../../
+QUARTUS_PROJECT_DIR := C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project/
 
 
 #END GENERATED

@@ -2,28 +2,9 @@
 **** Build of configuration Nios II for project test_niosII_sdcard ****
 
 make all 
-Info: Building ../test_niosII_sdcard_bsp/
-make --no-print-directory -C ../test_niosII_sdcard_bsp/
+Info: Building C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_bsp/
+make --no-print-directory -C C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_bsp/
 [BSP build complete]
-Info: Compiling hello_ucosii.c to obj/default/hello_ucosii.o
-nios2-elf-gcc -xc -MP -MMD -c -I../test_niosII_sdcard_bsp//HAL/inc -I../test_niosII_sdcard_bsp/ -I../test_niosII_sdcard_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_ucosii.o hello_ucosii.c
-In file included from hello_ucosii.c:31:
-../test_niosII_sdcard_bsp//HAL/inc/includes.h:22:23: error: os_cfg.h: No such file or directory
-../test_niosII_sdcard_bsp//HAL/inc/includes.h:23:24: error: ucos_ii.h: No such file or directory
-hello_ucosii.c:49: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
-hello_ucosii.c: In function 'task1':
-hello_ucosii.c:84: warning: implicit declaration of function 'OSSemPost'
-hello_ucosii.c:84: error: 'sem' undeclared (first use in this function)
-hello_ucosii.c:84: error: (Each undeclared identifier is reported only once
-hello_ucosii.c:84: error: for each function it appears in.)
-hello_ucosii.c: In function 'task2':
-hello_ucosii.c:97: warning: implicit declaration of function 'OSSemPend'
-hello_ucosii.c:97: error: 'sem' undeclared (first use in this function)
-hello_ucosii.c: In function 'main':
-hello_ucosii.c:142: error: 'sem' undeclared (first use in this function)
-hello_ucosii.c:142: warning: implicit declaration of function 'OSSemCreate'
-hello_ucosii.c:143: warning: implicit declaration of function 'OSTaskCreateExt'
-hello_ucosii.c:148: warning: implicit declaration of function 'OSStart'
-make: *** [obj/default/hello_ucosii.o] Error 1
+[test_niosII_sdcard build complete]
 
 **** Build Finished ****

@@ -22,7 +22,6 @@ namespace DTW {
 
     //dynamic programming approach
     double dtw(const std::vector<double>& t1, const std::vector<double>& t2) {
-    	//std::cout << "print1";
         int m = t1.size();
         int n = t2.size();
 
@@ -30,7 +29,6 @@ namespace DTW {
         double cost[m][n];
 
         cost[0][0] = dist(t1[0], t2[0]);
-        //std::cout << "print";
         // calculate first row
         for(int i = 1; i < m; i++)
             cost[i][0] = cost[i-1][0] + dist(t1[i], t2[0]);
@@ -53,10 +51,6 @@ namespace DTW {
                 	myfile << std::endl;
                 }
         myfile.close();
-
-
-        //std::cout << std::endl;
-        //std::cout << cost[0][0] << std::endl;
         return cost[m-1][n-1];
     }
 }

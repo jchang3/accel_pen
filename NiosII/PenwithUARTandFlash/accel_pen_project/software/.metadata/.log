@@ -509,3 +509,25 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY org.eclipse.cdt.core 1 0 2014-03-02 16:07:33.316
 !MESSAGE Indexed 'test_program_to_flash' (1 sources, 13 headers) in 0.03 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+!SESSION 2014-03-02 19:49:49.296 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -data C:\Users\jchang3\Documents\ECE492\NiosII\PenwithUARTandFlash\accel_pen_project\software -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-02 19:51:48.155
+!MESSAGE Indexed 'test_niosII_uart_bsp' (95 sources, 68 headers) in 0.88 sec: 2,318 declarations; 10,113 references; 127 unresolved inclusions; 5 syntax errors; 213 unresolved names (1.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-02 19:51:49.294
+!MESSAGE Indexed 'test_niosII_uart' (1 sources, 13 headers) in 0.02 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 103 2014-03-02 19:53:24.527
+!MESSAGE Project accelerometer_pen does not exist. Please check that your launch configuration specifies a valid project in your workspace.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-02 19:55:01.218
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1393714699]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-02 19:55:03.026
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1393714699 /cygdrive/c/Users/jchang3/Documents/ECE492/NiosII/PenwithUARTandFlash/accel_pen_project/software/test_niosII_uart/test_niosII_uart.elf]

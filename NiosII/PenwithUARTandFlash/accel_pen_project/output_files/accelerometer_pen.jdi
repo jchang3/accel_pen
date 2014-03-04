@@ -1,10 +1,10 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="c6f65635475940cf6bd7"/>
+    <hash md5_digest_80b="d91e6a4f13d7fb9876f5"/>
   </project>
   <file_info>
-    <file checksum="0x005B8123" device="EP2C35F672C6" path="accelerometer_pen.sof" usercode="0xFFFFFFFF"/>
-    <file checksum="0x1C298617" device="EPCS16" path="accelerometer_pen.pof" usercode="0x00000000"/>
+    <file checksum="0x005B3539" device="EP2C35F672C6" path="accelerometer_pen.sof" usercode="0xFFFFFFFF"/>
+    <file checksum="0x1C2E6FFA" device="EPCS16" path="accelerometer_pen.pof" usercode="0x00000000"/>
   </file_info>
   <hub_info ir_width="2" node_count="2"/>
   <node_info>

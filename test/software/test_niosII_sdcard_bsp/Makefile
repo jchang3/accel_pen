@@ -101,7 +101,7 @@ ACDS_VERSION := 12.1sp1
 # BUILD_NUMBER: 243
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := ../../../NiosII/SDCard/accel_pen_project/niosII_system.sopcinfo
+SOPC_FILE := C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project/niosII_system.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS
@@ -246,40 +246,42 @@ altera_avalon_timer_driver_C_LIB_SRCS := \
 	$(altera_avalon_timer_driver_SRCS_ROOT)/src/altera_avalon_timer_ts.c \
 	$(altera_avalon_timer_driver_SRCS_ROOT)/src/altera_avalon_timer_vars.c
 
-# altera_nios2_qsys_hal_driver sources root 
-altera_nios2_qsys_hal_driver_SRCS_ROOT := HAL
+# altera_nios2_qsys_ucosii_driver sources root 
+altera_nios2_qsys_ucosii_driver_SRCS_ROOT := HAL
 
-# altera_nios2_qsys_hal_driver sources 
-altera_nios2_qsys_hal_driver_C_LIB_SRCS := \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/altera_nios2_qsys_irq.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_usleep.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_busy_sleep.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_irq_vars.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_icache_flush.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_icache_flush_all.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_dcache_flush.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_dcache_flush_all.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_dcache_flush_no_writeback.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_instruction_exception_entry.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_irq_register.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_iic.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_remap_cached.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_remap_uncached.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_uncached_free.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_uncached_malloc.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_do_ctors.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_do_dtors.c \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_gmon.c
+# altera_nios2_qsys_ucosii_driver sources 
+altera_nios2_qsys_ucosii_driver_C_LIB_SRCS := \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/altera_nios2_qsys_irq.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_busy_sleep.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_irq_vars.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_icache_flush.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_icache_flush_all.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_dcache_flush.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_dcache_flush_all.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_dcache_flush_no_writeback.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_instruction_exception_entry.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_irq_register.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_iic.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_remap_cached.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_remap_uncached.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_uncached_free.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_uncached_malloc.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_do_ctors.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_do_dtors.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_gmon.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_usleep.c \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/os_cpu_c.c
 
-altera_nios2_qsys_hal_driver_ASM_LIB_SRCS := \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_exception_entry.S \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_exception_trap.S \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_exception_muldiv.S \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_irq_entry.S \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_software_exception.S \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_mcount.S \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_log_macro.S \
-	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/crt0.S
+altera_nios2_qsys_ucosii_driver_ASM_LIB_SRCS := \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_exception_entry.S \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_exception_trap.S \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_exception_muldiv.S \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_irq_entry.S \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_software_exception.S \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_mcount.S \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/alt_log_macro.S \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/crt0.S \
+	$(altera_nios2_qsys_ucosii_driver_SRCS_ROOT)/src/os_cpu_a.S
 
 # avalon_character_lcd_driver sources root 
 avalon_character_lcd_driver_SRCS_ROOT := drivers
@@ -300,7 +302,6 @@ hal_C_LIB_SRCS := \
 	$(hal_SRCS_ROOT)/src/alt_dma_rxchan_open.c \
 	$(hal_SRCS_ROOT)/src/alt_dma_txchan_open.c \
 	$(hal_SRCS_ROOT)/src/alt_environ.c \
-	$(hal_SRCS_ROOT)/src/alt_env_lock.c \
 	$(hal_SRCS_ROOT)/src/alt_errno.c \
 	$(hal_SRCS_ROOT)/src/alt_execve.c \
 	$(hal_SRCS_ROOT)/src/alt_exit.c \
@@ -329,7 +330,6 @@ hal_C_LIB_SRCS := \
 	$(hal_SRCS_ROOT)/src/alt_log_printf.c \
 	$(hal_SRCS_ROOT)/src/alt_lseek.c \
 	$(hal_SRCS_ROOT)/src/alt_main.c \
-	$(hal_SRCS_ROOT)/src/alt_malloc_lock.c \
 	$(hal_SRCS_ROOT)/src/alt_open.c \
 	$(hal_SRCS_ROOT)/src/alt_printf.c \
 	$(hal_SRCS_ROOT)/src/alt_putchar.c \
@@ -346,6 +346,25 @@ hal_C_LIB_SRCS := \
 	$(hal_SRCS_ROOT)/src/alt_wait.c \
 	$(hal_SRCS_ROOT)/src/alt_write.c
 
+# ucosii sources root 
+ucosii_SRCS_ROOT := UCOSII
+
+# ucosii sources 
+ucosii_C_LIB_SRCS := \
+	$(ucosii_SRCS_ROOT)/src/alt_env_lock.c \
+	$(ucosii_SRCS_ROOT)/src/alt_malloc_lock.c \
+	$(ucosii_SRCS_ROOT)/src/os_core.c \
+	$(ucosii_SRCS_ROOT)/src/os_dbg.c \
+	$(ucosii_SRCS_ROOT)/src/os_flag.c \
+	$(ucosii_SRCS_ROOT)/src/os_mbox.c \
+	$(ucosii_SRCS_ROOT)/src/os_mem.c \
+	$(ucosii_SRCS_ROOT)/src/os_mutex.c \
+	$(ucosii_SRCS_ROOT)/src/os_q.c \
+	$(ucosii_SRCS_ROOT)/src/os_sem.c \
+	$(ucosii_SRCS_ROOT)/src/os_task.c \
+	$(ucosii_SRCS_ROOT)/src/os_time.c \
+	$(ucosii_SRCS_ROOT)/src/os_tmr.c
+
 # up_avalon_rs232_driver sources root 
 up_avalon_rs232_driver_SRCS_ROOT := drivers
 
@@ -360,14 +379,15 @@ COMPONENT_C_LIB_SRCS += \
 	$(altera_avalon_jtag_uart_driver_C_LIB_SRCS) \
 	$(altera_avalon_sysid_qsys_driver_C_LIB_SRCS) \
 	$(altera_avalon_timer_driver_C_LIB_SRCS) \
-	$(altera_nios2_qsys_hal_driver_C_LIB_SRCS) \
+	$(altera_nios2_qsys_ucosii_driver_C_LIB_SRCS) \
 	$(avalon_character_lcd_driver_C_LIB_SRCS) \
 	$(hal_C_LIB_SRCS) \
+	$(ucosii_C_LIB_SRCS) \
 	$(up_avalon_rs232_driver_C_LIB_SRCS)
 
 # Assemble all component assembly source files 
 COMPONENT_ASM_LIB_SRCS += \
-	$(altera_nios2_qsys_hal_driver_ASM_LIB_SRCS)
+	$(altera_nios2_qsys_ucosii_driver_ASM_LIB_SRCS)
 
 # Assemble all component C++ source files 
 COMPONENT_CPP_LIB_SRCS += \

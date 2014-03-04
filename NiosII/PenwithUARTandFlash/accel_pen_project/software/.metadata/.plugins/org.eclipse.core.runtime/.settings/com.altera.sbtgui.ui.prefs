@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\NiosII\\SDCard\\accel_pen_project\\software\\test_program_to_flash
-newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jchang3\\Documents\\ECE492\\NiosII\\SDCard\\accel_pen_project\\niosII_system.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jchang3\\Documents\\PenwithUARTandFlash\\accel_pen_project\\software\\test_program_to_flash_bsp
+newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\NiosII\\PenwithUARTandFlash\\accel_pen_project\\software\\test_niosII_uart
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jchang3\\Documents\\ECE492\\NiosII\\PenwithUARTandFlash\\accel_pen_project\\niosII_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\NiosII\\PenwithUARTandFlash\\accel_pen_project\\software\\test_niosII_uart_bsp

@@ -1,1 +1,1 @@
-accelerometer_pen/DONE
+accelerometer_pen/FIT

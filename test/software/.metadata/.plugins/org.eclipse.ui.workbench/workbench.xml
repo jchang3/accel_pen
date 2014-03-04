@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="35" version="2.0">
+<workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1183" x="193" y="29">
 <fastViewData fastViewLocation="1024"/>
@@ -37,7 +37,6 @@
 <views>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.cdt.ui.pdomSearchViewPage" definitionColumnWidth="150" locationColumnWidth="300" matchColumnWidth="300" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" showEnclosingDefinitions="true"/>
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 </viewState>
 </view>
@@ -78,8 +77,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (2 items)"/>
-<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (8 items)"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="249" org.eclipse.ui.ide.resourceField="123" org.eclipse.ui.ide.severityAndDescriptionField="525"/>
@@ -268,14 +266,15 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.17494752" ratioLeft="250" ratioRight="1179" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.6755319" ratioLeft="508" ratioRight="244" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-0].1.0" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-0].1.0" label="Nios II Console"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:*" label="LabelNotFound"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -284,6 +283,7 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -415,44 +415,17 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="linker.h" tooltip="test_flash_write_bsp/linker.h">
-<persistable path="/test_flash_write_bsp/linker.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_ucosii.c" tooltip="test_niosII_sram/hello_ucosii.c">
+<persistable path="/test_niosII_sram/hello_ucosii.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system.h" tooltip="test_flash_write_bsp/system.h">
-<persistable path="/test_flash_write_bsp/system.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="altera_up_sd_card_avalon_interface.c" tooltip="test_niosII_sdcard_bsp/drivers/src/altera_up_sd_card_avalon_interface.c">
+<persistable path="/test_niosII_sdcard_bsp/drivers/src/altera_up_sd_card_avalon_interface.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_ucosii.c" tooltip="test_flash_write/hello_ucosii.c">
-<persistable path="/test_flash_write/hello_ucosii.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_ucosii.c" tooltip="test_niosII_sdcard/hello_ucosii.c">
+<persistable path="/test_niosII_sdcard/hello_ucosii.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="test_dtw_algorithm.cpp" tooltip="test_dtw_algorithm/test_dtw_algorithm.cpp">
-<persistable path="/test_dtw_algorithm/test_dtw_algorithm.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="example.txt" tooltip="test_dtw_scaled_int/example.txt">
-<persistable path="/test_dtw_scaled_int/example.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="200hz.txt" tooltip="test_dtw_scaled_int/200hz.txt">
-<persistable path="/test_dtw_scaled_int/200hz.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dtw.h" tooltip="test_dtw_scaled_int/src/dtw.h">
-<persistable path="/test_dtw_scaled_int/src/dtw.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dtw.cpp" tooltip="test_dtw_scaled_int/src/dtw.cpp">
-<persistable path="/test_dtw_scaled_int/src/dtw.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="200hz.txt" tooltip="test_dtw_scaled_int/src/200hz.txt">
-<persistable path="/test_dtw_scaled_int/src/200hz.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="example.txt" tooltip="test_dtw_algorithm/example.txt">
-<persistable path="/test_dtw_algorithm/example.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="carry_select8.vhd" tooltip="C:\Users\jchang3\Documents\carry_select8.vhd">
-<persistable uri="file:/C:/Users/jchang3/Documents/carry_select8.vhd"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dtw.cpp" tooltip="C:\Users\jchang3\Documents\dtw.cpp">
-<persistable uri="file:/C:/Users/jchang3/Documents/dtw.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stl_iterator.h" tooltip="C:\MinGW\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h">
-<persistable uri="file:/C:/MinGW/lib/gcc/mingw32/4.8.1/include/c++/bits/stl_iterator.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="altera_up_sd_card_avalon_interface.h" tooltip="test_niosII_sdcard_bsp/drivers/inc/altera_up_sd_card_avalon_interface.h">
+<persistable path="/test_niosII_sdcard_bsp/drivers/inc/altera_up_sd_card_avalon_interface.h"/>
 </file>
 </mruList>
 </workbench>

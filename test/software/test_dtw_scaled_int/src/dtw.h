@@ -1,8 +1,8 @@
 //============================================================================
-// Name        : dtw.cpp
-// Author      : Group 2 adapted from http://bytefish.de/blog/dynamic_time_warping/
+// Name        : dtw.h
+// Author      : Group 2
 // Project     : ECE492 - Group 2 accelerometer pen
-// Description : DTW testing package
+// Description : DTW scaled integer testing package
 //============================================================================
 
 #include <vector>

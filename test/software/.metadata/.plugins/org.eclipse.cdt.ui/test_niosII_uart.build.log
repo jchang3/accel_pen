@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project test_niosII_uart ****
+
+make all 
+Info: Building C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart_bsp/
+make --no-print-directory -C C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart_bsp/
+[BSP build complete]
+[test_niosII_uart build complete]
+
+**** Build Finished ****

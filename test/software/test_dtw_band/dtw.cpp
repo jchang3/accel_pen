@@ -2,7 +2,7 @@
 // Name        : dtw.cpp
 // Author      : Group 2
 // Project     : ECE492 - Group 2 accelerometer pen
-// Description : DTW testing using Sakoe-Chiba band boundaries
+// Description : DTW testing package using Sakoe-Chiba band boundaries
 //============================================================================
 
 
@@ -45,14 +45,14 @@ namespace DTW {
 
         int m = t1.size();
         int n = t2.size();
-        int window = static_cast<int>(0.1*(std::max(m, n))+0.5);
+        int window = static_cast<int>(0.1*(std::max(m, n))+0.5);    //band size of 10% max of m or n
         int constraint = std::abs(n-m);
         window = std::max(window, constraint);
 
         // create cost matrix
         int cost[m][n];
 
-        // Setup Initial state of matrix
+        // setup initial state of matrix
         for(int i = 0; i < m; i++)
         	for(int j = 0; j < n; j++)
         		cost[i][j] = INFIN;

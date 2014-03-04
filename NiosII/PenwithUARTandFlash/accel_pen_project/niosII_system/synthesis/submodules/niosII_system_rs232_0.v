@@ -72,9 +72,9 @@ module niosII_system_rs232_0 (
  *                           Parameter Declarations                          *
  *****************************************************************************/
 
-parameter CW							= 11;		// Baud counter width
-parameter BAUD_TICK_COUNT			= 1302;
-parameter HALF_BAUD_TICK_COUNT	= 651;
+parameter CW							= 13;		// Baud counter width
+parameter BAUD_TICK_COUNT			= 5208;
+parameter HALF_BAUD_TICK_COUNT	= 2604;
 
 parameter TDW							= 10;		// Total data width
 parameter DW							= 8;		// Data width

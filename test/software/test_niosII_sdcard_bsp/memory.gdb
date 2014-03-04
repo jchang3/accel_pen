@@ -1,9 +1,9 @@
 # memory.gdb - GDB memory region definitions
 #
 # Machine generated for CPU 'nios2_qsys_0' in SOPC Builder design 'niosII_system'
-# SOPC Builder design path: ../../../NiosII/SDCard/accel_pen_project/niosII_system.sopcinfo
+# SOPC Builder design path: C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project/niosII_system.sopcinfo
 #
-# Generated: Sun Mar 02 15:45:04 MST 2014
+# Generated: Mon Mar 03 14:57:06 MST 2014
 
 # DO NOT MODIFY THIS FILE
 #
