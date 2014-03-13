@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\test\\software\\test_niosII_sram
-newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jchang3\\Documents\\ECE492\\NiosII\\SRAM\\accel_pen_project\\niosII_system.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\test\\software\\test_niosII_sram_bsp
+newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jchang3\\Documents\\accel_pen\\test\\software\\test_niosII_sdcard_to_sram
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jchang3\\Documents\\accel_pen\\NiosII\\SDCardToSRAM\\accel_pen_project\\niosII_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jchang3\\Documents\\accel_pen\\test\\software\\test_niosII_sdcard_to_sram_bsp
