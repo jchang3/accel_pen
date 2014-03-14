@@ -1632,7 +1632,11 @@ java.lang.Exception: System timestamp mismatch - connected: "1393791395", expect
 
 !ENTRY com.altera.sbtgui.launch 1 0 2014-03-03 18:46:39.830
 !MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1393714699 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram/test_niosII_sram.elf]
+<<<<<<< HEAD
 !SESSION 2014-03-07 12:38:33.084 -----------------------------------------------
+=======
+!SESSION 2014-03-13 14:25:44.755 -----------------------------------------------
+>>>>>>> 6caf88fccebdd2c03ca872ae24d52ad98168957e
 eclipse.buildId=M20120208-0800
 java.version=1.6.0_23
 java.vendor=Sun Microsystems Inc.
@@ -1640,8 +1644,22 @@ BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
 Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.cdt.core 1 0 2014-03-07 12:41:06.907
 !MESSAGE Indexed 'test_niosII_uart_sdcard_bsp' (96 sources, 69 headers) in 1.17 sec: 2,648 declarations; 12,263 references; 131 unresolved inclusions; 5 syntax errors; 229 unresolved names (1.51%)
 
 !ENTRY org.eclipse.cdt.core 1 0 2014-03-07 12:41:08.984
 !MESSAGE Indexed 'test_niosII_uart_sdcard' (1 sources, 13 headers) in 0.01 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+=======
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-13 14:28:46.885
+!MESSAGE Indexed 'test_niosII_avalon_uart_bsp' (99 sources, 71 headers) in 1.09 sec: 2,413 declarations; 10,510 references; 131 unresolved inclusions; 5 syntax errors; 227 unresolved names (1.73%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-13 14:28:49.462
+!MESSAGE Indexed 'test_niosII_avalon_uart' (1 sources, 13 headers) in 0.01 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-13 15:26:24.945
+!MESSAGE Indexed 'test_niosII_sdcard_to_sram_bsp' (96 sources, 69 headers) in 0.65 sec: 2,648 declarations; 12,263 references; 131 unresolved inclusions; 5 syntax errors; 229 unresolved names (1.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-13 15:26:26.143
+!MESSAGE Indexed 'test_niosII_sdcard_to_sram' (1 sources, 13 headers) in 0.01 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+>>>>>>> 6caf88fccebdd2c03ca872ae24d52ad98168957e

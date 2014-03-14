@@ -1,0 +1,230 @@
+/*************************************************************************
+ * Copyright (c) 2004 Altera Corporation, San Jose, California, USA.      *
+ * All rights reserved. All use of this software and documentation is     *
+ * subject to the License Agreement located at the end of this file below.*
+ **************************************************************************
+ * Description:                                                           *
+ * The following is a simple hello world program running MicroC/OS-II.The *
+ * purpose of the design is to be a very simple application that just     *
+ * demonstrates MicroC/OS-II running on NIOS II.The design doesn't account*
+ * for issues such as checking system call return codes. etc.             *
+ *                                                                        *
+ * Requirements:                                                          *
+ *   -Supported Example Hardware Platforms                                *
+ *     Standard                                                           *
+ *     Full Featured                                                      *
+ *     Low Cost                                                           *
+ *   -Supported Development Boards                                        *
+ *     Nios II Development Board, Stratix II Edition                      *
+ *     Nios Development Board, Stratix Professional Edition               *
+ *     Nios Development Board, Stratix Edition                            *
+ *     Nios Development Board, Cyclone Edition                            *
+ *   -System Library Settings                                             *
+ *     RTOS Type - MicroC/OS-II                                           *
+ *     Periodic System Timer                                              *
+ *   -Know Issues                                                         *
+ *     If this design is run on the ISS, terminal output will take several*
+ *     minutes per iteration.                                             *
+ **************************************************************************/
+/**************************************************************************
+ * Name        : test_niosII_sdcard.c
+ * Author      : Group 2 Using University Program SDCard Interface
+ * Project     : ECE492 - Group 2 accelerometer pen
+ * Description : Testing SDCard Read and Writes
+ * Date		   : Mar 3, 2014
+**************************************************************************/
+
+#include <stdio.h>
+#include "includes.h"
+#include <stdio.h>
+#include <system.h>
+#include <altera_up_sd_card_avalon_interface.h>
+
+/* Definition of Task Stacks */
+#define   TASK_STACKSIZE       2048
+OS_STK taskWriteSDCard_stk[TASK_STACKSIZE];
+OS_STK taskReadSDCard_stk[TASK_STACKSIZE];
+OS_STK taskSRAM_stk[TASK_STACKSIZE];
+
+/* Definition of Task Priorities */
+#define TASKWRITESDCARD_PRIORITY      1
+#define TASKREADSDCARD_PRIORITY      2
+#define TASKSRAM_PRIORITY      3
+
+#define SD_BUFFER_SIZE 512
+#define MSG_QUEUE_SIZE 512
+/*Semaphore Declaration*/
+OS_EVENT *writesem;
+OS_EVENT *readsem;
+OS_EVENT *message;
+void *messageArray[MSG_QUEUE_SIZE];
+
+INT8U err;
+
+/* Checks for an SDCard, and Writes to the card if it is FAT16 */
+void taskWriteSDCard(void* pdata) {
+	short int sd_fileh;
+	int index;
+	char buffer[SD_BUFFER_SIZE] = "SD CARD test message\r\n\0";
+	while (1) {
+
+		OSSemPend(writesem, 0, &err);
+		printf("SD Card Write Test\n");
+
+		alt_up_sd_card_dev *sd_card_dev = alt_up_sd_card_open_dev(
+				ALTERA_UP_SD_CARD_AVALON_INTERFACE_0_NAME);
+
+		if (sd_card_dev != 0) {
+			if (alt_up_sd_card_is_Present()) {
+				if (alt_up_sd_card_is_FAT16())
+					printf("Card is FAT16\n");
+				else
+					printf("Card is not FAT16\n");
+
+				sd_fileh = alt_up_sd_card_fopen("file.txt", false);
+
+				if (sd_fileh < 0)
+					printf("Problem creating file. Error %i", sd_fileh);
+				else {
+					printf("SD Accessed Successfully, writing data...");
+
+					int index = 0;
+					while (buffer[index] != '\0') {
+						alt_up_sd_card_write(sd_fileh, buffer[index]);
+						index = index + 1;
+					}
+
+					printf("Done!\n");
+					printf("Closing File...");
+					alt_up_sd_card_fclose(sd_fileh);
+					printf("Done!\n\n");
+
+					OSSemPost(readsem);
+				}
+			}
+		}
+	}
+}
+
+/* Checks for an SDCard, and Reads from the card if it is FAT16 from the file written to by taskWriteSDCard  */
+void taskReadSDCard(void* pdata) {
+	short int sd_fileh;
+	char * read_buffer[SD_BUFFER_SIZE];
+	int index;
+
+	while (1) {
+
+		OSSemPend(readsem, 0, &err);
+		printf("SD Card Read Test\n");
+
+		alt_up_sd_card_dev *sd_card_dev = alt_up_sd_card_open_dev(
+				ALTERA_UP_SD_CARD_AVALON_INTERFACE_0_NAME);
+
+		if (sd_card_dev != 0) {
+			if (alt_up_sd_card_is_Present()) {
+				if (alt_up_sd_card_is_FAT16())
+					printf("Card is FAT16\n");
+				else
+					printf("Card is not FAT16\n");
+
+				sd_fileh = alt_up_sd_card_fopen("file.txt", false);
+
+				if (sd_fileh < 0)
+					printf("Problem accessing file. Error %i", sd_fileh);
+				else {
+					printf("SD Accessed Successfully, reading data...");
+
+					char * pbuffer = read_buffer;
+					char data = 1;
+					for (index = 0; data != '\0'; index++) {
+						data = alt_up_sd_card_read(sd_fileh);
+						*pbuffer = data;
+						pbuffer = pbuffer + (sizeof(char));
+					}
+
+					printf("Done!\n");
+					printf("Closing File...");
+					alt_up_sd_card_fclose(sd_fileh);
+					printf("Done!\n");
+					printf("read buffer contains: ");
+					printf("%s\n", read_buffer);
+					OSQPost(message, (void*)&read_buffer);
+				}
+			}
+		}
+	}
+}
+
+void taskSRAM(void* pdata) {
+	//alt_u32 data;
+	volatile alt_u32 * pSRAM = (alt_u32*) SRAM_0_BASE;
+	int i;
+	char* msg;
+	while(1){
+		msg = OSQPend(message, 0, &err);
+		/* Writes data to SRAM */
+		printf("Writing to SRAM...\n");
+		for (i = 0; i < sizeof(msg)/sizeof(char); i++) {
+			*(pSRAM + i*sizeof(char)) = msg[i];
+		}
+
+		char recv[sizeof(msg)+1];
+
+		/* Checks output from SRAM */
+		printf("Reading from SRAM...\n");
+		for (i = 0; i < sizeof(msg)/sizeof(char); i++) {
+			recv[i] = *(pSRAM + i*sizeof(char));
+			//printf("%d  %08lX\n", i, data);
+		}
+		printf("SRAM message is: %s\n", recv);
+	}
+}
+
+/* The main function creates two tasks. The SD read task pends on the SD write task */
+int main(void) {
+	writesem = OSSemCreate(1);
+	readsem = OSSemCreate(0);
+	message = OSQCreate(&messageArray, MSG_QUEUE_SIZE);
+
+	OSTaskCreateExt(taskWriteSDCard, NULL, (void *) &taskWriteSDCard_stk[TASK_STACKSIZE - 1],
+			TASKWRITESDCARD_PRIORITY, TASKWRITESDCARD_PRIORITY, taskWriteSDCard_stk, TASK_STACKSIZE, NULL, 0);
+
+	OSTaskCreateExt(taskReadSDCard, NULL, (void *) &taskReadSDCard_stk[TASK_STACKSIZE - 1],
+			TASKREADSDCARD_PRIORITY, TASKREADSDCARD_PRIORITY, taskReadSDCard_stk, TASK_STACKSIZE, NULL, 0);
+
+	OSTaskCreateExt(taskSRAM, NULL, (void *) &taskSRAM_stk[TASK_STACKSIZE - 1],
+			TASKSRAM_PRIORITY, TASKSRAM_PRIORITY, taskSRAM_stk, TASK_STACKSIZE, NULL, 0);
+	OSStart();
+	return 0;
+}
+
+/******************************************************************************
+ *                                                                             *
+ * License Agreement                                                           *
+ *                                                                             *
+ * Copyright (c) 2004 Altera Corporation, San Jose, California, USA.           *
+ * All rights reserved.                                                        *
+ *                                                                             *
+ * Permission is hereby granted, free of charge, to any person obtaining a     *
+ * copy of this software and associated documentation files (the "Software"),  *
+ * to deal in the Software without restriction, including without limitation   *
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,    *
+ * and/or sell copies of the Software, and to permit persons to whom the       *
+ * Software is furnished to do so, subject to the following conditions:        *
+ *                                                                             *
+ * The above copyright notice and this permission notice shall be included in  *
+ * all copies or substantial portions of the Software.                         *
+ *                                                                             *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  *
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,    *
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE *
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER      *
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING     *
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER         *
+ * DEALINGS IN THE SOFTWARE.                                                   *
+ *                                                                             *
+ * This agreement shall be governed in all respects by the laws of the State   *
+ * of California and by the laws of the United States of America.              *
+ * Altera does not recommend, suggest or require that this reference design    *
+ * file be used in conjunction or combination with any other product.          *
+ ******************************************************************************/

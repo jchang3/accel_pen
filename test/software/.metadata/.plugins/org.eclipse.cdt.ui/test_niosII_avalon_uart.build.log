@@ -1,0 +1,7 @@
+
+**** Clean-only build of configuration Nios II for project test_niosII_avalon_uart ****
+
+make clean 
+[test_niosII_avalon_uart clean complete]
+
+**** Build Finished ****

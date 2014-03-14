@@ -1,4 +1,10 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\test\\software\\test_niosII_uart_sdcard
 newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jchang3\\Documents\\ECE492\\NiosII\\UARTtoSDCard\\accel_pen_project\\niosII_system.sopcinfo
 newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\test\\software\\test_niosII_uart_sdcard_bsp
+=======
+newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jchang3\\Documents\\accel_pen\\test\\software\\test_niosII_sdcard_to_sram
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jchang3\\Documents\\accel_pen\\NiosII\\SDCardToSRAM\\accel_pen_project\\niosII_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jchang3\\Documents\\accel_pen\\test\\software\\test_niosII_sdcard_to_sram_bsp
+>>>>>>> 6caf88fccebdd2c03ca872ae24d52ad98168957e
