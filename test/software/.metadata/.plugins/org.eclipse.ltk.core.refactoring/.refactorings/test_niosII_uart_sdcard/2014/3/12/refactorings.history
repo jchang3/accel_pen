@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;test_niosII_uart_sdcard/hello_ucosii.c&apos; to &apos;test_niosII_uart_sdcard.c&apos;" description="Rename resource &apos;hello_ucosii.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hello_ucosii.c" name="test_niosII_uart_sdcard.c" stamp="1395169063420" updateReferences="true"/>
+</session>

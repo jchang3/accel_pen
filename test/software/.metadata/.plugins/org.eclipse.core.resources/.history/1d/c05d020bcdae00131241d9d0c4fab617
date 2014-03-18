@@ -1,0 +1,336 @@
+/*************************************************************************
+ * Copyright (c) 2004 Altera Corporation, San Jose, California, USA.      *
+ * All rights reserved. All use of this software and documentation is     *
+ * subject to the License Agreement located at the end of this file below.*
+ **************************************************************************
+ * Description:                                                           *
+ * The following is a simple hello world program running MicroC/OS-II.The *
+ * purpose of the design is to be a very simple application that just     *
+ * demonstrates MicroC/OS-II running on NIOS II.The design doesn't account*
+ * for issues such as checking system call return codes. etc.             *
+ *                                                                        *
+ * Requirements:                                                          *
+ *   -Supported Example Hardware Platforms                                *
+ *     Standard                                                           *
+ *     Full Featured                                                      *
+ *     Low Cost                                                           *
+ *   -Supported Development Boards                                        *
+ *     Nios II Development Board, Stratix II Edition                      *
+ *     Nios Development Board, Stratix Professional Edition               *
+ *     Nios Development Board, Stratix Edition                            *
+ *     Nios Development Board, Cyclone Edition                            *
+ *   -System Library Settings                                             *
+ *     RTOS Type - MicroC/OS-II                                           *
+ *     Periodic System Timer                                              *
+ *   -Know Issues                                                         *
+ *     If this design is run on the ISS, terminal output will take several*
+ *     minutes per iteration.                                             *
+ **************************************************************************/
+/**************************************************************************
+ * Name        : test_niosII_sdcard.c
+ * Author      : Group 2 Using University Program SDCard Interface
+ * Project     : ECE492 - Group 2 accelerometer pen
+ * Description : Testing SDCard Read and Writes
+ * Date		   : Mar 3, 2014
+**************************************************************************/
+
+#include <stdio.h>
+#include "includes.h"
+#include <stdio.h>
+#include <system.h>
+#include "altera_up_avalon_character_lcd.h"
+#include "altera_avalon_pio_regs.h"
+#include "altera_up_avalon_rs232.h"
+#include "altera_up_avalon_rs232_regs.h"
+#include <altera_up_sd_card_avalon_interface.h>
+
+/* Definition of Task Stacks */
+#define   TASK_STACKSIZE       2048
+OS_STK taskUartRead_stk[TASK_STACKSIZE];
+OS_STK taskWriteSDCard_stk[TASK_STACKSIZE];
+OS_STK taskReadSDCard_stk[TASK_STACKSIZE];
+OS_STK SWQ_stk[TASK_STACKSIZE];
+
+
+/* Definition of Task Priorities */
+#define TASKUARTREAD_PRIORITY 		3
+#define TASKWRITESDCARD_PRIORITY      2
+#define TASKREADSDCARD_PRIORITY      1
+
+#define SD_BUFFER_SIZE 512
+#define MSG_QUEUE_SIZE 512
+#define SW_READ 1
+#define SW_WRITE 2
+#define WRITE_FIFO_EMPTY 0x80
+#define READ_FIFO_EMPTY 0x0
+
+#define START '1'
+#define END   '2'
+
+/*Semaphore Declaration*/
+OS_EVENT *uartsem;
+OS_EVENT *writesem;
+OS_EVENT *readsem;
+OS_EVENT *message;
+void *messageArray[MSG_QUEUE_SIZE];
+
+//OS_EVENT *RS232Q;
+OS_EVENT *SWQ;
+
+INT8U err;
+
+
+
+/* UART task: read and write */
+void taskUartRead(void* pdata) {
+	//alt_u32 write_FIFO_space;
+	alt_u16 read_FIFO_used;
+	//alt_u8 data_W8;
+	alt_u8 data_R8;
+	//int enter = 0;
+	unsigned p_error;
+	alt_up_rs232_dev* rs232_dev;
+	char buffer[SD_BUFFER_SIZE];
+	char * pbuffer = buffer;
+	int index = 0;
+	int start = 0;
+
+	OSSemPend(uartsem, 0, &err);
+	// open the RS232 UART port
+	rs232_dev = alt_up_rs232_open_dev("/dev/rs232_0");
+	if (rs232_dev == NULL)
+		printf("Error: could not open RS232 UART\n");
+	else
+		printf("Opened RS232 UART device\n");
+
+	alt_up_rs232_enable_read_interrupt(rs232_dev);
+
+	printf("UART Read Test\n");
+	while (1) {
+
+
+//		int sw = OSQPend(SWQ, 0, &err);
+//		if (sw == SW_WRITE) {
+//			alt_up_rs232_disable_read_interrupt(rs232_dev);
+//			if (enter == 0) {
+//				data_W8 = 'A';
+//				enter = 1;
+//			} else if (enter == 1) {
+//				data_W8 = '\n';
+//				enter = 0;
+//			}
+//			write_FIFO_space = alt_up_rs232_get_available_space_in_write_FIFO(
+//					rs232_dev);
+//			if (write_FIFO_space >= WRITE_FIFO_EMPTY) {
+//				alt_up_rs232_write_data(rs232_dev, data_W8);
+//				alt_printf("write %c to RS232 UART\n", data_W8);
+//			}
+//			OSTimeDlyHMSM(0, 0, 1, 0);
+//			alt_up_rs232_enable_read_interrupt(rs232_dev);
+//		}
+		//if (sw == SW_READ) {
+
+		// Check to see if buffer is full
+		if(index == SD_BUFFER_SIZE-2){
+			printf("Buffer is full, writing current data to SDCARD\n");
+			pbuffer += sizeof(char);
+			*pbuffer = '\0';
+			OSQPost(message, (void*)&buffer);
+			pbuffer = buffer;
+			index = 0;
+			start = 0;
+		}
+
+		// Read from UART
+		read_FIFO_used = alt_up_rs232_get_used_space_in_read_FIFO(rs232_dev);
+		//printf("%s\n", read_FIFO_used);
+		if (read_FIFO_used > READ_FIFO_EMPTY) {
+			alt_printf("char stored in read_FIFO: %x\n", read_FIFO_used);
+			alt_up_rs232_read_data(rs232_dev, &data_R8, &p_error);
+			alt_printf("read %c from RS232 UART\n\n", data_R8);
+
+			// Start byte
+			if((data_R8 == START) && (start == 0)){
+				pbuffer = buffer;
+				index = 0;
+				start = 1;
+			}
+			// End byte
+			else if((data_R8 == END) && (start == 1)){
+				*pbuffer = '\0';
+				printf("%s\n", buffer);
+				err = OSQPost(message, (void*)&buffer);
+				 if(err == OS_NO_ERR)
+					 printf("%s, %d\n", buffer, err);
+				pbuffer = buffer;
+				index = 0;
+				start = 0;
+			}
+			else if(start == 1){
+				*pbuffer = data_R8;
+				index++;
+				pbuffer =  buffer + index*sizeof(char);
+			}
+			else{
+				printf("Error, start code not detected\n");
+			}
+		}
+
+		OSTimeDlyHMSM(0, 0, 1, 0);
+		//}
+	}
+}
+
+/* Checks for an SDCard, and Writes to the card if it is FAT16 */
+void taskWriteSDCard(void* pdata) {
+	short int sd_fileh;
+	//int index;
+	char* msg;
+	//char buffer[SD_BUFFER_SIZE];// = "SD CARD test message\r\n\0";
+	while (1) {
+		printf("error\n");
+		msg = OSQPend(message, 0, &err);
+		if(err!=OS_NO_ERR){
+			printf("error\n");
+		}
+		//buffer = msg;
+		printf("SD Card Write Test\n");
+
+		alt_up_sd_card_dev *sd_card_dev = alt_up_sd_card_open_dev(
+				ALTERA_UP_SD_CARD_AVALON_INTERFACE_0_NAME);
+
+		if (sd_card_dev != 0) {
+			if (alt_up_sd_card_is_Present()) {
+				if (alt_up_sd_card_is_FAT16())
+					printf("Card is FAT16\n");
+				else
+					printf("Card is not FAT16\n");
+
+				sd_fileh = alt_up_sd_card_fopen("file.txt", false);
+
+				if (sd_fileh < 0)
+					printf("Problem creating file. Error %i", sd_fileh);
+				else {
+					printf("SD Accessed Successfully, writing data...");
+
+					//int index = 0;
+					while (*msg != '\0') {
+						alt_up_sd_card_write(sd_fileh, *msg);
+						//index++;
+						msg += sizeof(char);
+					}
+					alt_up_sd_card_write(sd_fileh, '\0');
+
+					printf("Done!\n");
+					printf("Closing File...");
+					alt_up_sd_card_fclose(sd_fileh);
+					printf("Done!\n\n");
+
+					OSSemPost(readsem);
+				}
+			}
+		}
+	}
+}
+
+/* Checks for an SDCard, and Reads from the card if it is FAT16 from the file written to by taskWriteSDCard  */
+void taskReadSDCard(void* pdata) {
+	short int sd_fileh;
+	char * read_buffer[SD_BUFFER_SIZE];
+	int index;
+
+	while (1) {
+
+		OSSemPend(readsem, 0, &err);
+		printf("SD Card Read Test\n");
+
+		alt_up_sd_card_dev *sd_card_dev = alt_up_sd_card_open_dev(
+				ALTERA_UP_SD_CARD_AVALON_INTERFACE_0_NAME);
+
+		if (sd_card_dev != 0) {
+			if (alt_up_sd_card_is_Present()) {
+				if (alt_up_sd_card_is_FAT16())
+					printf("Card is FAT16\n");
+				else
+					printf("Card is not FAT16\n");
+
+				sd_fileh = alt_up_sd_card_fopen("file.txt", false);
+
+				if (sd_fileh < 0)
+					printf("Problem accessing file. Error %i", sd_fileh);
+				else {
+					printf("SD Accessed Successfully, reading data...");
+
+					char * pbuffer = read_buffer;
+					char data = 1;
+					for (index = 0; data != '\0'; index++) {
+						data = alt_up_sd_card_read(sd_fileh);
+						*pbuffer = data;
+						pbuffer = pbuffer + (sizeof(char));
+					}
+
+					printf("Done!\n");
+					printf("Closing File...");
+					alt_up_sd_card_fclose(sd_fileh);
+					printf("Done!\n");
+					printf("read buffer contains: ");
+					printf("%s\n", read_buffer);
+				}
+			}
+		}
+	}
+}
+
+/* The main function creates two tasks. The SD read task pends on the SD write task */
+int main(void) {
+	uartsem = OSSemCreate(1);
+	message = OSQCreate(&messageArray, MSG_QUEUE_SIZE);
+	//writesem = OSSemCreate(1);
+	readsem = OSSemCreate(0);
+	//SWQ = OSQCreate(SWQ_stk, TASK_STACKSIZE);
+
+	OSTaskCreateExt(taskUartRead, NULL, (void *) &taskUartRead_stk[TASK_STACKSIZE - 1],
+			TASKUARTREAD_PRIORITY, TASKUARTREAD_PRIORITY, taskUartRead_stk, TASK_STACKSIZE, NULL, 0);
+	OSStart();
+
+	OSTaskCreateExt(taskWriteSDCard, NULL, (void *) &taskWriteSDCard_stk[TASK_STACKSIZE - 1],
+			TASKWRITESDCARD_PRIORITY, TASKWRITESDCARD_PRIORITY, taskWriteSDCard_stk, TASK_STACKSIZE, NULL, 0);
+
+
+
+	OSTaskCreateExt(taskReadSDCard, NULL, (void *) &taskReadSDCard_stk[TASK_STACKSIZE - 1],
+			TASKREADSDCARD_PRIORITY, TASKREADSDCARD_PRIORITY, taskReadSDCard_stk, TASK_STACKSIZE, NULL, 0);
+	OSStart();
+	return 0;
+}
+
+/******************************************************************************
+ *                                                                             *
+ * License Agreement                                                           *
+ *                                                                             *
+ * Copyright (c) 2004 Altera Corporation, San Jose, California, USA.           *
+ * All rights reserved.                                                        *
+ *                                                                             *
+ * Permission is hereby granted, free of charge, to any person obtaining a     *
+ * copy of this software and associated documentation files (the "Software"),  *
+ * to deal in the Software without restriction, including without limitation   *
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,    *
+ * and/or sell copies of the Software, and to permit persons to whom the       *
+ * Software is furnished to do so, subject to the following conditions:        *
+ *                                                                             *
+ * The above copyright notice and this permission notice shall be included in  *
+ * all copies or substantial portions of the Software.                         *
+ *                                                                             *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  *
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,    *
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE *
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER      *
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING     *
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER         *
+ * DEALINGS IN THE SOFTWARE.                                                   *
+ *                                                                             *
+ * This agreement shall be governed in all respects by the laws of the State   *
+ * of California and by the laws of the United States of America.              *
+ * Altera does not recommend, suggest or require that this reference design    *
+ * file be used in conjunction or combination with any other product.          *
+ ******************************************************************************/
