@@ -2,10 +2,10 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>ucosii</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>3-Mar-2014 2:32:05 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1393882325247</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>14-Mar-2014 3:01:24 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1394830884874</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\jchang3\Documents\ECE492\test\software\test_niosII_uart_bsp</BspGeneratedLocation>
-        <BspSettingsFile>.\settings.bsp</BspSettingsFile>
+        <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>C:\Users\jchang3\Documents\ECE492\NiosII\PenwithUARTandFlash\accel_pen_project\niosII_system.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios2_qsys_0</Cpu>

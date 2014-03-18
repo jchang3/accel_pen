@@ -1,5 +1,9 @@
 
-**** Build of configuration Debug for project test_dtw_band ****
+**** Rebuild of configuration Debug for project test_dtw_band ****
 
 **** Internal Builder is used for build               ****
-Nothing to build for test_dtw_band
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test_dtw_band.o ..\test_dtw_band.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o dtw.o ..\dtw.cpp
+g++ -o test_dtw_band.exe test_dtw_band.o dtw.o
+Build complete for project test_dtw_band
+Time consumed: 3043  ms.  

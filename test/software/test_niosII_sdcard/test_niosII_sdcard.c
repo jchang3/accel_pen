@@ -89,6 +89,7 @@ void taskWriteSDCard(void* pdata) {
 						alt_up_sd_card_write(sd_fileh, buffer[index]);
 						index = index + 1;
 					}
+					alt_up_sd_card_write(sd_fileh, '\0');
 
 					printf("Done!\n");
 					printf("Closing File...");
@@ -136,6 +137,7 @@ void taskReadSDCard(void* pdata) {
 						data = alt_up_sd_card_read(sd_fileh);
 						*pbuffer = data;
 						pbuffer = pbuffer + (sizeof(char));
+
 					}
 
 					printf("Done!\n");

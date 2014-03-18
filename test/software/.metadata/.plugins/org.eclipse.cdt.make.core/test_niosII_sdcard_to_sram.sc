@@ -2,12 +2,12 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.817421264;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.817421264.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.900383966;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1820833408">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.838949878;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.838949878.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1606109853;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.754058839">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="C:/Users/jchang3/Documents/accel_pen/test/software/test_niosII_sdcard_to_sram_bsp/UCOSII/inc"/>
-<includePath path="C:/Users/jchang3/Documents/accel_pen/test/software/test_niosII_sdcard_to_sram_bsp/HAL/inc"/>
-<includePath path="C:/Users/jchang3/Documents/accel_pen/test/software/test_niosII_sdcard_to_sram_bsp/"/>
-<includePath path="C:/Users/jchang3/Documents/accel_pen/test/software/test_niosII_sdcard_to_sram_bsp/drivers/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_to_sram_bsp/UCOSII/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_to_sram_bsp/HAL/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_to_sram_bsp/"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_to_sram_bsp/drivers/inc"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
@@ -231,12 +231,12 @@
 <definedSymbol symbol="__ucosii__=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.817421264;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.817421264.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.617366535;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.574584512">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.838949878;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.838949878.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.2003094554;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.133947848">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="C:/Users/jchang3/Documents/accel_pen/test/software/test_niosII_sdcard_to_sram_bsp/UCOSII/inc"/>
-<includePath path="C:/Users/jchang3/Documents/accel_pen/test/software/test_niosII_sdcard_to_sram_bsp/HAL/inc"/>
-<includePath path="C:/Users/jchang3/Documents/accel_pen/test/software/test_niosII_sdcard_to_sram_bsp/"/>
-<includePath path="C:/Users/jchang3/Documents/accel_pen/test/software/test_niosII_sdcard_to_sram_bsp/drivers/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_to_sram_bsp/UCOSII/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_to_sram_bsp/HAL/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_to_sram_bsp/"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_to_sram_bsp/drivers/inc"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\usr\include"/>

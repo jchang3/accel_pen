@@ -3,8 +3,8 @@
 # This script creates the hello_ucosii application in this directory.
 
 
-BSP_DIR=C:/Users/jchang3/Documents/accel_pen/test/software/test_niosII_sdcard_to_sram_bsp/
-QUARTUS_PROJECT_DIR=C:/Users/jchang3/Documents/accel_pen/NiosII/SDCardToSRAM/accel_pen_project/
+BSP_DIR=C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sdcard_to_sram_bsp/
+QUARTUS_PROJECT_DIR=C:/Users/jchang3/Documents/ECE492/NiosII/SDCardToSRAM/accel_pen_project/
 NIOS2_APP_GEN_ARGS="--elf-name test_niosII_sdcard_to_sram.elf --set OBJDUMP_INCLUDE_SOURCE 1 --src-files hello_ucosii.c"
 
 

@@ -2,9 +2,9 @@
  * system.h - SOPC Builder system and BSP software package information
  *
  * Machine generated for CPU 'nios2_qsys_0' in SOPC Builder design 'niosII_system'
- * SOPC Builder design path: C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project/niosII_system.sopcinfo
+ * SOPC Builder design path: C:/Users/jchang3/Documents/ECE492/NiosII/SDCardToSRAM/accel_pen_project/niosII_system.sopcinfo
  *
- * Generated: Mon Mar 03 14:57:07 MST 2014
+ * Generated: Thu Mar 13 18:33:14 MDT 2014
  */
 
 /*

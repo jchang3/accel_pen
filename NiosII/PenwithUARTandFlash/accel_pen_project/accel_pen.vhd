@@ -66,8 +66,9 @@ library ieee;
 		SRAM_CE_N	:	out	std_logic;
 		
 		-- UART for tx and rx with xbee
-		UART_TXD		:	out	std_logic;
-		UART_RXD		:	in		std_logic;
+		--UART_TXD		:	out	std_logic;
+		--UART_RXD		:	in		std_logic;
+		GPIO_0		: inout 	std_logic_vector(2 downto 0);
 		
 		-- FLASH 
 		FL_ADDR 		:	out 	DE2_FL_ADDR;
@@ -167,8 +168,8 @@ begin
             character_lcd_0_external_interface_EN   => LCD_EN,   
             character_lcd_0_external_interface_RS   => LCD_RS,   
             character_lcd_0_external_interface_RW   => LCD_RW,
-				rs232_0_external_interface_RXD          => UART_RXD,          	--rs232_0_external_interface.RXD
-				rs232_0_external_interface_TXD          => UART_TXD,           	--.TXD
+				rs232_0_external_interface_RXD          => GPIO_0(0),          	--rs232_0_external_interface.RXD
+				rs232_0_external_interface_TXD          => GPIO_0(2),           	--.TXD
 				tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_read_n_out       => FL_OE_N,       --      tristate_conduit_bridge_0_out.generic_tristate_controller_0_tcm_read_n_out
             tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_data_out         => FL_DQ,         --                                   .generic_tristate_controller_0_tcm_data_out
             tristate_conduit_bridge_0_out_generic_tristate_controller_0_tcm_chipselect_n_out => FL_CE_N, --                                   .generic_tristate_controller_0_tcm_chipselect_n_out

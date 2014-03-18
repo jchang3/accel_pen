@@ -87,11 +87,11 @@ ACDS_VERSION := 12.1sp1
 
 # Quartus Generated JDI File. Required for resolving node instance ID's with 
 # design component names. 
-JDI_FILE := C:/Users/jchang3/Documents/accel_pen/NiosII/SDCardToSRAM/accel_pen_project/accelerometer_pen.jdi
+JDI_FILE := C:/Users/jchang3/Documents/ECE492/NiosII/SDCardToSRAM/accel_pen_project/accelerometer_pen.jdi
 
 # Qsys--generated SOPCINFO file. Required for resolving node instance ID's with 
 # design component names. 
-SOPCINFO_FILE := C:/Users/jchang3/Documents/accel_pen/NiosII/SDCardToSRAM/accel_pen_project/niosII_system.sopcinfo
+SOPCINFO_FILE := C:/Users/jchang3/Documents/ECE492/NiosII/SDCardToSRAM/accel_pen_project/niosII_system.sopcinfo
 
 # Big-Endian operation. 
 # setting BIG_ENDIAN is false

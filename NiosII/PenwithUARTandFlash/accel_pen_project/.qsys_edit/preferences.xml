@@ -14,8 +14,7 @@
    <frequency preferredWidth="380" />
   </columns>
  </clocktable>
- <library
-   expandedCategories="Project,Library/Qsys Interconnect,Library,Library/Qsys Interconnect/Tri-State Components" />
+ <library expandedCategories="Library,Project" />
  <window width="1440" height="860" x="-8" y="-8" />
  <hdlexample language="VERILOG" />
 </preferences>

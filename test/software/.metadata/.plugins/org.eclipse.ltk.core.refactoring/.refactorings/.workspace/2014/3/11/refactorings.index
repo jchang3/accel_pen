@@ -1,2 +1,6 @@
 1394754763527	Delete resource 'test_niosII_avalon_uart'
 1394754767035	Delete resource 'test_niosII_avalon_uart_bsp'
+1394837251201	Delete resource 'test_niosII_sdcard_to_sram'
+1394837257314	Delete resource 'test_niosII_sdcard_to_sram_bsp'
+1394837664803	Delete resource 'test_niosII_sdcard_to_sram'
+1394837686986	Delete resource 'test_niosII_sdcard_to_sram_bsp'

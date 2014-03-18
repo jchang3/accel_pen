@@ -132,22 +132,6 @@
          type = "int";
       }
    }
-   element sdram_0.s1
-   {
-      datum baseAddress
-      {
-         value = "8388608";
-         type = "String";
-      }
-   }
-   element onchip_memory2_0.s1
-   {
-      datum baseAddress
-      {
-         value = "26230784";
-         type = "String";
-      }
-   }
    element timer_0.s1
    {
       datum baseAddress
@@ -161,6 +145,22 @@
       datum baseAddress
       {
          value = "26251296";
+         type = "String";
+      }
+   }
+   element sdram_0.s1
+   {
+      datum baseAddress
+      {
+         value = "8388608";
+         type = "String";
+      }
+   }
+   element onchip_memory2_0.s1
+   {
+      datum baseAddress
+      {
+         value = "26230784";
          type = "String";
       }
    }
@@ -248,7 +248,7 @@
  <parameter name="projectName">accelerometer_pen.qpf</parameter>
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1393881755619" />
+ <parameter name="timeStamp" value="1394830665261" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
@@ -683,7 +683,7 @@
    name="rs232_0">
   <parameter name="avalon_bus_type" value="Memory Mapped" />
   <parameter name="clk_rate" value="50000000" />
-  <parameter name="baud" value="9600" />
+  <parameter name="baud" value="57600" />
   <parameter name="parity" value="None" />
   <parameter name="data_bits" value="8" />
   <parameter name="stop_bits" value="1" />
