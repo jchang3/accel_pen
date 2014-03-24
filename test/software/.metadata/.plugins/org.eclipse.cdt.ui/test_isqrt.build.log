@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project test_isqrt ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src\test_isqrt.o ..\src\test_isqrt.c
+gcc -o test_isqrt.exe src\test_isqrt.o
+Build complete for project test_isqrt
+Time consumed: 246  ms.  

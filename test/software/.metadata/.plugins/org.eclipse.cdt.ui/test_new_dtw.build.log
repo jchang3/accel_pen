@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project test_new_dtw ****
+
+make all 
+Info: Building C:/Users/jchang3/Documents/ECE492/test/software/test_new_dtw_bsp/
+make --no-print-directory -C C:/Users/jchang3/Documents/ECE492/test/software/test_new_dtw_bsp/
+[BSP build complete]
+[test_new_dtw build complete]
+
+**** Build Finished ****

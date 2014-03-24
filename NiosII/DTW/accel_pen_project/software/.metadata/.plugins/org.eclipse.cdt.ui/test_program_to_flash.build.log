@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project test_program_to_flash ****
+
+make all 
+Info: Building C:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp/
+make --no-print-directory -C C:/Users/jchang3/Documents/PenwithUARTandFlash/accel_pen_project/software/test_program_to_flash_bsp/
+[BSP build complete]
+[test_program_to_flash build complete]
+
+**** Build Finished ****

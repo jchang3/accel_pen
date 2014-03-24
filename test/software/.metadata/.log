@@ -3951,3 +3951,642 @@ java.lang.Exception
 
 !ENTRY com.altera.sbtgui.launch 1 0 2014-03-18 12:56:03.100
 !MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1393791395 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart_sdcard/test_niosII_uart_sdcard.elf]
+!SESSION 2014-03-18 13:16:03.719 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-18 13:18:14.803
+!MESSAGE Indexed 'test_niosII_sram_dtw_bsp' (95 sources, 102 headers) in 1.48 sec: 3,072 declarations; 10,899 references; 95 unresolved inclusions; 49 syntax errors; 169 unresolved names (1.20%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-18 13:18:15.428
+!MESSAGE Indexed 'test_niosII_sram_dtw' (1 sources, 13 headers) in 0.01 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+!SESSION 2014-03-21 15:14:06.365 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-21 15:18:20.540
+!MESSAGE Indexed 'test_new_dtw_bsp' (95 sources, 68 headers) in 0.98 sec: 2,318 declarations; 10,113 references; 127 unresolved inclusions; 5 syntax errors; 213 unresolved names (1.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-21 15:18:22.677
+!MESSAGE Indexed 'test_new_dtw' (1 sources, 13 headers) in 0.03 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 103 2014-03-21 15:43:25.072
+!MESSAGE Project test_niosII_uart_sdcard is closed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:44:03.643
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:44:05.303
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:45:37.996
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:45:38.386
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:45:40.046
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:46:23.468
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:46:23.858
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:46:25.508
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:49:04.925
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:49:06.575
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:50:10.047
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:50:11.697
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:54:07.316
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 15:54:08.969
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:04:21.602
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:04:22.006
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:04:23.667
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+!SESSION 2014-03-21 16:11:39.038 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-03-21 16:11:45.226
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2014-03-21 16:14:35.465 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-03-21 16:14:37.938
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:15:07.189
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:15:08.848
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:18:14.383
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:18:16.034
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:19:13.495
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:19:15.142
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:20:22.396
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:20:24.048
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:21:17.450
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:21:19.103
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:32:42.813
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:32:44.465
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:35:38.701
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394830738]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 16:35:40.359
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394830738 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_uart/test_niosII_uart.elf]
+
+!ENTRY org.eclipse.cdt.debug.core 4 103 2014-03-21 17:38:19.964
+!MESSAGE Project test_niosII_uart is closed
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-21 17:45:08.685
+!MESSAGE Indexed 'test_new_dtw_bsp' (95 sources, 68 headers) in 0.73 sec: 2,318 declarations; 10,113 references; 127 unresolved inclusions; 5 syntax errors; 213 unresolved names (1.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-21 17:45:09.889
+!MESSAGE Indexed 'test_new_dtw' (1 sources, 13 headers) in 0.02 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:47:54.527
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1393714699]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:47:56.184
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1393714699 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram/test_niosII_sram.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:51:37.965
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:51:39.600
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:52:30.859
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:52:32.511
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:52:49.911
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:52:51.557
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:54:34.827
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:54:35.218
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:54:36.865
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:55:27.356
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:55:29.008
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:56:00.381
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:56:02.028
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:56:15.924
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:56:16.312
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:56:17.965
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:57:01.932
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:57:03.579
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:58:34.933
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:58:36.584
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:59:27.955
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 17:59:29.604
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:00:46.738
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:00:48.388
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:01:01.708
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:01:03.355
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:01:27.021
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:01:27.410
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:01:29.059
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:02:00.991
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:02:01.457
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:02:03.104
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:02:16.041
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:02:16.433
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:02:18.080
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:03:00.521
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:03:02.164
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:03:12.317
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:03:13.953
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:03:56.449
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:03:58.097
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:11:21.514
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:11:23.159
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:15:44.073
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:15:45.727
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:16:22.886
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:16:24.533
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:16:51.906
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:16:53.555
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:17:14.482
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:17:16.130
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:17:57.748
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:17:59.402
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:18:59.699
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:19:01.346
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:20:05.124
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:20:06.769
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:20:38.296
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:20:39.942
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:21:33.049
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:21:34.699
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:23:14.998
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:23:16.643
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:25:30.180
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:25:31.830
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:26:16.616
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:26:18.266
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:26:47.581
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:26:47.971
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:26:49.613
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:28:00.607
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:28:02.260
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:28:26.399
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:28:28.047
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:29:07.169
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:29:07.554
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:29:09.198
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:35:10.099
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:35:11.748
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:39:01.089
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:39:02.736
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:39:48.610
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:39:48.993
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:39:50.642
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:41:39.310
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:41:40.953
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:42:15.900
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:42:16.325
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:42:17.972
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:43:09.538
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:43:11.193
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:43:25.178
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:43:25.565
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:43:27.210
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:43:46.261
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:43:46.649
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:43:48.289
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:45:24.154
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:45:24.544
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:45:26.191
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:46:40.047
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:46:40.430
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:46:42.072
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:58:46.098
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-21 18:58:47.741
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+!SESSION 2014-03-23 17:08:32.099 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-03-23 17:09:18.339
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-03-23 17:09:18.355
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-23 17:48:04.406
+!MESSAGE Indexed 'test' (1 sources, 12 headers) in 0.32 sec: 914 declarations; 1,395 references; 4 unresolved inclusions; 0 syntax errors; 11 unresolved names (0.47%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-23 17:48:40.406
+!MESSAGE Indexed 'test_isqrt' (1 sources, 12 headers) in 0.10 sec: 914 declarations; 1,395 references; 4 unresolved inclusions; 0 syntax errors; 11 unresolved names (0.47%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 18:56:53.730
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 18:56:55.404
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 18:57:32.656
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 18:57:33.059
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 18:57:34.727
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 18:59:30.119
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 18:59:31.781
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:00:20.584
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:00:20.987
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:00:22.652
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:00:46.237
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:00:46.636
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:00:48.293
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:01:46.473
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:01:46.869
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:01:48.526
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:02:20.366
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:02:22.026
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:04:16.054
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:04:16.453
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-23 19:04:18.106
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]
+!SESSION 2014-03-24 14:01:50.578 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-03-24 14:35:07.511
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-03-24 14:35:07.529
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-03-24 14:35:19.093
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-03-24 14:35:19.096
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-24 14:35:37.255
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909048 --id=0x0 --timestamp=1394762448]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-03-24 14:35:38.923
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909048 --id=0x0 --timestamp=1394762448 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/test_new_dtw/test_new_dtw.elf]

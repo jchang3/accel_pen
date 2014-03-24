@@ -1246,18 +1246,18 @@ void taskRS232(void* pdata) {
   800460:	e17ffd04 	addi	r5,fp,-12
   800464:	e13ff917 	ldw	r4,-28(fp)
   800468:	080a5f80 	call	80a5f8 <alt_up_rs232_read_data>
-				alt_printf("read %c from RS232 UART\n", data_R8);
+				alt_printf("read %x from RS232 UART\n", data_R8);
   80046c:	e0bffd03 	ldbu	r2,-12(fp)
   800470:	11403fcc 	andi	r5,r2,255
   800474:	01002074 	movhi	r4,129
   800478:	213a8604 	addi	r4,r4,-5608
   80047c:	08007640 	call	800764 <alt_printf>
 			}
-			OSTimeDlyHMSM(0, 0, 1, 0);
+			OSTimeDlyHMSM(0, 0, 0, 5);
   800480:	0009883a 	mov	r4,zero
   800484:	000b883a 	mov	r5,zero
-  800488:	01800044 	movi	r6,1
-  80048c:	000f883a 	mov	r7,zero
+  800488:	000d883a 	mov	r6,zero
+  80048c:	01c00144 	movi	r7,5
   800490:	0808b600 	call	808b60 <OSTimeDlyHMSM>
 		}
 	}

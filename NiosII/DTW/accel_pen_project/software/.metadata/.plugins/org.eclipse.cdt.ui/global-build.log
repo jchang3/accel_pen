@@ -1,0 +1,37 @@
+
+**** Build of configuration Nios II for project test_niosII_uart ****
+
+make all 
+Info: Building ../test_niosII_uart_bsp/
+make --no-print-directory -C ../test_niosII_uart_bsp/
+[BSP build complete]
+Info: Linking test_niosII_uart.elf
+nios2-elf-g++  -T'../test_niosII_uart_bsp//linker.x' -msys-crt0='../test_niosII_uart_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../test_niosII_uart_bsp/   -Wl,-Map=test_niosII_uart.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o test_niosII_uart.elf obj/default/hello_ucosii.o -lm 
+nios2-elf-insert test_niosII_uart.elf --thread_model ucosii --cpu_name nios2_qsys_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1909048 --timestamp 1393714699 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name niosII_system --quartus_project_dir "C:/Users/jchang3/Documents/ECE492/NiosII/PenwithUARTandFlash/accel_pen_project" --jdi C:/Users/jchang3/Documents/ECE492/NiosII/PenwithUARTandFlash/accel_pen_project/accelerometer_pen.jdi --sopcinfo C:/Users/jchang3/Documents/ECE492/NiosII/PenwithUARTandFlash/accel_pen_project/niosII_system.sopcinfo
+Info: (test_niosII_uart.elf) 119 KBytes program size (code + initialized data).
+Info:                        8066 KBytes free for stack + heap.
+Info: Creating test_niosII_uart.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source test_niosII_uart.elf >test_niosII_uart.objdump
+[test_niosII_uart build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project test_niosII_uart ****
+
+make all 
+Info: Building ../test_niosII_uart_bsp/
+make --no-print-directory -C ../test_niosII_uart_bsp/
+[BSP build complete]
+[test_niosII_uart build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project test_niosII_uart ****
+
+make all 
+Info: Building ../test_niosII_uart_bsp/
+make --no-print-directory -C ../test_niosII_uart_bsp/
+[BSP build complete]
+[test_niosII_uart build complete]
+
+**** Build Finished ****

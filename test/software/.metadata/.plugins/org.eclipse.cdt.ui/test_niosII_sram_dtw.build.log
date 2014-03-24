@@ -1,0 +1,7 @@
+
+**** Clean-only build of configuration Nios II for project test_niosII_sram_dtw ****
+
+make clean 
+[test_niosII_sram_dtw clean complete]
+
+**** Build Finished ****
