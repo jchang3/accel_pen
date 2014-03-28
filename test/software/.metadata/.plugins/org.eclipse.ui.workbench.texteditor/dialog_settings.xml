@@ -13,26 +13,26 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="FILE_SIZE" key="selection"/>
+		<item value="pX" key="selection"/>
 		<list key="findhistory">
-			<item value="file_size"/>
-			<item value="baud"/>
-			<item value="printf(&quot;1"/>
-			<item value="bsp_root_dir"/>
-			<item value="bsp_root"/>
-			<item value="taskReadSDCard"/>
-			<item value="task"/>
-			<item value="TASKREADSDCARD"/>
+			<item value="px"/>
+			<item value="pchar"/>
+			<item value="dtw_sem"/>
+			<item value="ossempo"/>
+			<item value="ossem"/>
+			<item value="uartsem"/>
+			<item value="TASKWRITESDCARD"/>
+			<item value="taskWriteSDCard"/>
 		</list>
 		<list key="replacehistory">
+			<item value="TASKDTWX"/>
+			<item value="taskDTWX"/>
 			<item value="taskUartWrite"/>
 			<item value="TASKUARTREAD"/>
 			<item value="TASKWRITESDCARD"/>
 			<item value="TASKREADSDCARD"/>
 			<item value="taskReadSDCard"/>
 			<item value="taskWriteSDCard"/>
-			<item value="task"/>
-			<item value="int"/>
 		</list>
 	</section>
 </section>

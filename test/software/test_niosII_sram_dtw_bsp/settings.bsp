@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>ucosii</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>18-Mar-2014 1:18:11 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1395170291035</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>24-Mar-2014 2:49:36 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1395694176449</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\jchang3\Documents\ECE492\test\software\test_niosII_sram_dtw_bsp</BspGeneratedLocation>
         <BspSettingsFile>.\settings.bsp</BspSettingsFile>
         <SopcDesignFile>C:\Users\jchang3\Documents\ECE492\NiosII\SRAMToDTW\accel_pen_project\niosII_system.sopcinfo</SopcDesignFile>

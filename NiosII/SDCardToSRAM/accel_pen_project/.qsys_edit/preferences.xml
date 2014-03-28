@@ -16,6 +16,6 @@
  </clocktable>
  <library
    expandedCategories="Library,Library/University Program,Library/University Program/Memory,Project" />
- <window width="897" height="860" x="204" y="0" />
+ <window width="897" height="860" x="293" y="61" />
  <hdlexample language="VERILOG" />
 </preferences>

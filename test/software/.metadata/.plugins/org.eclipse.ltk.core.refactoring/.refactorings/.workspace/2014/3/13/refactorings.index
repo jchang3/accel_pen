@@ -1,1 +1,7 @@
 1395618494747	Delete resource 'test'
+1395694018053	Delete resource 'test_niosII_sram_dtw'
+1395694047283	Delete resource 'test_niosII_sram_dtw_bsp'
+1395855001034	Delete resource 'accelerometer_pen'
+1395855015110	Delete resource 'accelerometer_pen_bsp'
+1396038511050	Delete resource 'accelerometer_pen'
+1396038524194	Delete resource 'accelerometer_pen_bsp'

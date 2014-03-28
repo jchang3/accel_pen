@@ -142,7 +142,8 @@ ACDS_VERSION := 12.1sp1
 ELF := test_niosII_sram_dtw.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS := hello_ucosii.c
+C_SRCS += hello_ucosii.c
+C_SRCS += dtw.c
 CXX_SRCS :=
 ASM_SRCS :=
 

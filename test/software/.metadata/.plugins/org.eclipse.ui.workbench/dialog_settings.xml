@@ -4,10 +4,11 @@
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\jchang3\Documents\ECE492\test\software\test_niosII_sram_dtw"/>
+			<item value="C:\Users\jchang3\Documents\ECE492\test\software\test_new_dtw"/>
 			<item value="C:\Users\jchang3\Documents\ECE492\test\software\test_dtw_band"/>
 			<item value="C:\Users\jchang3\Documents\test\software\test_dtw_algorithm"/>
 			<item value="C:\Users\jchang3\Documents\test\software\dtw_algorithm_test\src"/>
-			<item value="C:\Users\jchang3\Documents\test"/>
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">

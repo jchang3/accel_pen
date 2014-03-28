@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_qsys_0' in SOPC Builder design 'niosII_system'
  * SOPC Builder design path: C:/Users/jchang3/Documents/ECE492/NiosII/SRAMToDTW/accel_pen_project/niosII_system.sopcinfo
  *
- * Generated: Tue Mar 18 13:18:12 MDT 2014
+ * Generated: Mon Mar 24 14:49:37 MDT 2014
  */
 
 /*

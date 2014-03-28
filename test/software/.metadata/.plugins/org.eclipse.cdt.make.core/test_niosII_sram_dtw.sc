@@ -2,8 +2,12 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1325981512;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1325981512.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.2031982487;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.14452698">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1608944241;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1608944241.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.293510925;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.96079318">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/UCOSII/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/HAL/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/drivers/inc"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
@@ -221,10 +225,18 @@
 <definedSymbol symbol="unix=1"/>
 <definedSymbol symbol="__unix__=1"/>
 <definedSymbol symbol="__unix=1"/>
+<definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
+<definedSymbol symbol="__hal__=1"/>
+<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
+<definedSymbol symbol="__ucosii__=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1325981512;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1325981512.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.775363595;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1632979413">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1608944241;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1608944241.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1684029833;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1421731350">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/UCOSII/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/HAL/inc"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/"/>
+<includePath path="C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/drivers/inc"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="C:\altera\12.1sp1\quartus\bin\cygwin\usr\include"/>
@@ -432,6 +444,10 @@
 <definedSymbol symbol="unix=1"/>
 <definedSymbol symbol="__unix__=1"/>
 <definedSymbol symbol="__unix=1"/>
+<definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
+<definedSymbol symbol="__hal__=1"/>
+<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
+<definedSymbol symbol="__ucosii__=1"/>
 </collector>
 </instance>
 </scannerInfo>

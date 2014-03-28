@@ -1,7 +1,7 @@
 
-**** Clean-only build of configuration Nios II for project test_niosII_sram_dtw_bsp ****
+**** Build of configuration Nios II for project test_niosII_sram_dtw_bsp ****
 
-make clean 
-[BSP clean complete]
+make all 
+[BSP build complete]
 
 **** Build Finished ****

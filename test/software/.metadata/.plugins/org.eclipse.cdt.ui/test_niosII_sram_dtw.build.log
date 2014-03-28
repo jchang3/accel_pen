@@ -1,7 +1,10 @@
 
-**** Clean-only build of configuration Nios II for project test_niosII_sram_dtw ****
+**** Build of configuration Nios II for project test_niosII_sram_dtw ****
 
-make clean 
-[test_niosII_sram_dtw clean complete]
+make all 
+Info: Building C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/
+make --no-print-directory -C C:/Users/jchang3/Documents/ECE492/test/software/test_niosII_sram_dtw_bsp/
+[BSP build complete]
+[test_niosII_sram_dtw build complete]
 
 **** Build Finished ****
