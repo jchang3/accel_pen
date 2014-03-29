@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C35F672) Path("C:/Users/jchang3/Documents/ECE492/NiosII/SDCard/accel_pen_project/output_files/") File("accelerometer_pen.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C35F672) Path("C:/Users/jchang3/Documents/ECE492/NiosII/AccelerometerPen/accel_pen_project/output_files/") File("accelerometer_pen.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

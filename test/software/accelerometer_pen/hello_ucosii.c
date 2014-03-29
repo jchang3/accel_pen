@@ -46,23 +46,28 @@
 #include <time.h>
 #include "dtw.h"
 #include <stdlib.h>
+#include <math.h>
 
 /* Definition of Task Stacks */
 #define   TASK_STACKSIZE       2048
 OS_STK taskModeSelect_stk[TASK_STACKSIZE];
 OS_STK taskCalibrate_stk[TASK_STACKSIZE];
-OS_STK taskUartRead_stk[TASK_STACKSIZE];
+OS_STK taskCharacterRead_stk[TASK_STACKSIZE];
+OS_STK taskTemplateMatch_stk[TASK_STACKSIZE];
 OS_STK taskDTWX_stk[TASK_STACKSIZE];
+OS_STK taskDTWY_stk[TASK_STACKSIZE];
 OS_STK taskReadSDCard_stk[TASK_STACKSIZE];
 OS_STK SWQ_stk[TASK_STACKSIZE];
 
 
 /* Definition of Task Priorities */
 #define TASKMODESELECT_PRIORITY 		1
-#define TASKCALIBRATE_PRIORITY 		2
-#define TASKUARTREAD_PRIORITY 		3
-#define TASKDTWX_PRIORITY      4
-#define TASKREADSDCARD_PRIORITY      5
+#define TASKCALIBRATE_PRIORITY 			2
+#define TASKCHARACTERREAD_PRIORITY 		3
+#define TASKDTWX_PRIORITY    	  		4
+#define TASKDTWY_PRIORITY      			5
+#define TASKTEMPLATEMATCH_PRIORITY      6
+#define TASKREADSDCARD_PRIORITY     	7
 
 #define BUFFER_SIZE 10
 #define MSG_QUEUE_SIZE 512
@@ -78,6 +83,7 @@ OS_STK SWQ_stk[TASK_STACKSIZE];
 #define DTW_BASE 10000
 #define X_COORD_BASE 2000
 #define Y_COORD_BASE 2000
+#define INFIN 1000000000
 //#define MESSAGE
 
 /*Semaphore Declaration*/
@@ -86,8 +92,17 @@ OS_EVENT *configuresem;
 OS_EVENT *writesem;
 OS_EVENT *readsem;
 OS_EVENT *message;
+//OS_EVENT *messageX;
+//OS_EVENT *messageY;
 OS_EVENT *dtw_sem;
+OS_EVENT *dtw_semx;
+OS_EVENT *dtw_semy;
+OS_EVENT *semx;
+OS_EVENT *semy;
+OS_EVENT *modeselectsem;
 void *messageArray[MSG_QUEUE_SIZE];
+//void *messageArrayX[MSG_QUEUE_SIZE];
+//void *messageArrayY[MSG_QUEUE_SIZE];
 
 OS_EVENT *SWQ;
 
@@ -102,21 +117,68 @@ typedef struct{
 
 character array[10];
 character template[10];
+
 character *pCharacter;
+
+typedef struct{
+	int * t;
+	int size;
+}template_groups;
+
+template_groups templates[4];
+
+int dtwx;
+int dtwy;
+int template_number;
 
 void loadSDCard(int val);
 
-void taskModeSelect(void* pdata){
-	while(1){
 
+//int t1[2] = { 1, 7 };
+//
+//int t2[2] = { 2, 3 };
+//
+//int t3[3] = { 6, 0, 9 };
+//
+//int t4[3] = { 4, 5, 8 };
+
+
+void taskModeSelect(void* pdata){
+	//int i;
+	OSSemPend(modeselectsem, 0, &err);
+	printf("Starting ModeSelect\n");
+
+	while(1){
+		//printf("Starting ModeSelect\n");
 		if (IORD_ALTERA_AVALON_PIO_DATA(SWITCH_BASE) == 1) {
-			loadSDCard(1);
+			//printf("Starting ModeSelect2\n");
+			//loadSDCard(1);
+
+			int t1[2] = { 1, 7 };
+			int t2[2] = { 2, 3 };
+			int t3[3] = { 6, 0, 9 };
+			int t4[3] = { 4, 5, 8 };
+
+			templates[0].t = t1;
+			templates[1].t = t2;
+			templates[2].t = t3;
+			templates[3].t = t4;
+			templates[0].size = 2;
+			templates[1].size = 2;
+			templates[2].size = 3;
+			templates[3].size = 3;
+//
+//			for(i = 0; i < 4; i++){
+//
+//			}
 			err = OSSemPost(uartsem);
 		} else {
+			//printf("Starting ModeSelect3\n");
 			err = OSSemPost(configuresem);
 		}
 		//OSTimeDlyHMSM(0, 0, 0, 50);
-		break;
+		//break;
+		OSSemPend(modeselectsem, 0, &err);
 	}
 	return;
 }
@@ -194,7 +256,7 @@ void taskCalibrate(void* pdata) {
 	alt_u8 data_R8;
 	unsigned p_error;
 	alt_up_rs232_dev* rs232_dev;
-	int buffer[BUFFER_SIZE];
+	//int buffer[BUFFER_SIZE];
 	int index = 0;
 	int i;
 	int start = 0;
@@ -205,8 +267,8 @@ void taskCalibrate(void* pdata) {
 	//int msg[BUFFER_SIZE];
 	//int val;
 
-	buffer[0] = -1;
-	buffer[1] = -1;
+	//buffer[0] = -1;
+	//buffer[1] = -1;
 
 	for(i=0; i < CHAR_ARRAY_BUFF_SIZE; i++){
 		array[i].pX = ((alt_u32*) SRAM_0_BASE) + sizeof(int)*(DTW_BASE + INPUT_SIZE*i);
@@ -223,6 +285,7 @@ void taskCalibrate(void* pdata) {
 	alt_up_rs232_enable_read_interrupt(rs232_dev);
 
 	printf("UART Read For Configuration\n");
+	printf("Starting Calibration. Write character 0...\n\n");
 	while (1) {
 
 //		//character values read
@@ -257,9 +320,9 @@ void taskCalibrate(void* pdata) {
 //				//if(buffer[])
 //			}
 //		}
-		if(current_address == 0){
-			printf("Starting Calibration. Write the Character for 0\n\n");
-		}
+//		if(current_address == 0){
+//			printf("Starting Calibration. Write character 0\n\n");
+//		}
 
 		// Read from UART
 		read_FIFO_used = alt_up_rs232_get_used_space_in_read_FIFO(rs232_dev);
@@ -298,7 +361,7 @@ void taskCalibrate(void* pdata) {
 				if (start == 2) {
 					array[current_address].size = index + 1;
 					if(current_address != CHAR_ARRAY_BUFF_SIZE - 1 ){
-						printf("Finished reading character %d, write character %d\n", current_address, current_address + 1);
+						printf("Finished reading character %d, write character %d...\n", current_address, current_address + 1);
 					}
 					else{
 						printf("Finished reading character %d, Starting SDCard Write Task\n", current_address);
@@ -352,14 +415,14 @@ void taskCalibrate(void* pdata) {
 }
 
 /* UART task: read*/
-void taskUartRead(void* pdata) {
+void taskCharacterRead(void* pdata) {
 	OSSemPend(uartsem, 0, &err);
 	alt_u16 read_FIFO_used;
 	alt_u8 data_R8;
 	unsigned p_error;
 	alt_up_rs232_dev* rs232_dev;
 	int buffer[BUFFER_SIZE];
-	char * pbuffer = buffer;
+//	char * pbuffer = buffer;
 	int index = 0;
 	int i;
 	int start = 0;
@@ -367,8 +430,8 @@ void taskUartRead(void* pdata) {
 	int coord = 0;
 	int current_address = 0;
 	int reading = 0;
-	int msg[BUFFER_SIZE];
-	int val;
+//	int msg[BUFFER_SIZE];
+//	int val;
 
 	buffer[0] = -1;
 	buffer[1] = -1;
@@ -387,7 +450,7 @@ void taskUartRead(void* pdata) {
 
 	alt_up_rs232_enable_read_interrupt(rs232_dev);
 
-	printf("UART Read Test\n");
+	printf("UART Ready for input\n");
 	while (1) {
 
 		//character values read
@@ -480,11 +543,85 @@ void taskUartRead(void* pdata) {
 	}
 }
 
-/* Checks for an SDCard, and Writes to the card if it is FAT16. Receives data from UART task */
+//int er
+
+
+
+void taskTemplateMatch(void* pdata) {
+	char* msg;
+	int best_match = INFIN;
+	int match_group;
+	int match = 0;
+//	int x;
+//	int y;
+	int i;
+//	int j;
+	int score;
+//	int error_margin = 20000;
+//	int bufferx[BUFFER_SIZE];
+//	int buffery[BUFFER_SIZE];
+
+
+	while (1) {
+//		msg = OSQPend(message, 0, &err);
+//
+//		//test template group
+//		for (i = 0; i < 4; i++) {
+//			template_number = templates[i].t[0];
+//			//for (j = 0; j < templates[i].size; j++) {
+//				//bufferx[0] =
+//				//post dtwx
+//				//OSSemPost(dtw_semx);
+//				//OSSemPost(dtw_semy);
+//				//post dtwy
+//				//OSSemPend(semx);
+//				//OSSemPend(semy);
+//				score = sqrt((dtwx * dtwx) + (dtwy * dtwy));
+//
+//				//try matching to 1
+//				if (i == 0) {
+//					best_match = score;
+//					match_group = i;
+//				}
+//
+////				//skip template group if it is greater than the margin of error
+////				if(best_match >= error_margin) {
+////					break;
+////				}
+//
+//				//update score
+//				if (best_match > score) {
+//					best_match = score;
+//					match_group = i;
+//				}
+//			//}
+//		}
+//
+//		//look in the rest of the group
+//		for(i = 1; i < templates[match_group].size; i++){
+//			template_number = templates[match_group].t[i];
+//			//post dtwx
+//			//
+//			//post dtwy
+//			//pendx
+//			//pendy
+//			score = sqrt((dtwx * dtwx) + (dtwy * dtwy));
+//			if (best_match > score) {
+//				best_match = score;
+//				match = i;
+//			}
+//		}
+//		printf("best match is \'%d\' with score a of %d\n", i, best_match);
+//		OSSemPost(dtw_sem);
+
+	}
+}
+
+/* Performs DTW on X coordinates */
 void taskDTWX(void* pdata) {
 	clock_t t;
 	//short int sd_fileh;
-	int index;
+//	int index;
 	char* msg;
 	int * t1;
 	//volatile alt_u32 * pSRAM = (alt_u32*) SRAM_0_BASE;
@@ -493,6 +630,7 @@ void taskDTWX(void* pdata) {
 	//char buffer[SD_BUFFER_SIZE];// = "SD CARD test message\r\n\0";
 	while (1) {
 		msg = OSQPend(message, 0, &err);
+		//OSSemPend(dtw_semx, 0, &err);
 		//buffer = msg;
 		printf("DTW test\n");
 
@@ -505,13 +643,49 @@ void taskDTWX(void* pdata) {
 		t = clock();
 
 		int answer = dtw((int*)pCharacter->pX, t1 , pCharacter->size, INPUT_SIZE);
-
+		//dtwx=
 
 		t = clock() - t;
 		float time = ((float) t) / CLOCKS_PER_SEC;
 		printf("%d   time = %f", answer, time);
 
-		OSSemPost(dtw_sem);
+		//OSSemPost(semx);
+	}
+}
+
+/* Performs DTW on X coordinates */
+void taskDTWY(void* pdata) {
+	clock_t t;
+	//short int sd_fileh;
+//	int index;
+	char* msg;
+	int * t1;
+	//volatile alt_u32 * pSRAM = (alt_u32*) SRAM_0_BASE;
+	//volatile alt_u32 * pSRAM2 = ((alt_u32*) SRAM_0_BASE) + sizeof(int)*INPUT_SIZE;
+
+	//char buffer[SD_BUFFER_SIZE];// = "SD CARD test message\r\n\0";
+	while (1) {
+		msg = OSQPend(message, 0, &err);
+		//OSSemPend(dtw_semy, 0, &err);
+		//buffer = msg;
+		printf("DTW test\n");
+
+		t1 = calloc(INPUT_SIZE, sizeof(int));
+		if (t1 == NULL) {
+			printf("1Error allocating memory\n"); //print an error message
+			return;
+		}
+
+		t = clock();
+
+		int answer = dtw((int*)pCharacter->pY, t1 , pCharacter->size, INPUT_SIZE);
+		//dtwy =
+
+		t = clock() - t;
+		float time = ((float) t) / CLOCKS_PER_SEC;
+		printf("%d   time = %f", answer, time);
+
+		//OSSemPost(semy);
 	}
 }
 
@@ -576,13 +750,20 @@ void taskReadSDCard(void* pdata) {
 
 /* The main function creates two tasks. The SD read task pends on the SD write task */
 int main(void) {
+	modeselectsem = OSSemCreate(1);
 	uartsem = OSSemCreate(0);
 	configuresem = OSSemCreate(0);
 	dtw_sem = OSSemCreate(0);
 
 	message = OSQCreate(&messageArray, MSG_QUEUE_SIZE);
+//	messageX = OSQCreate(&messageArrayX, MSG_QUEUE_SIZE);
+//	messageY = OSQCreate(&messageArrayY, MSG_QUEUE_SIZE);
+	dtw_semx = OSSemCreate(0);
+	dtw_semy = OSSemCreate(0);
+	semx = OSSemCreate(0);
+	semy = OSSemCreate(0);
 
-	//writesem = OSSemCreate(1);
+	writesem = OSSemCreate(0);
 	readsem = OSSemCreate(0);
 	//SWQ = OSQCreate(SWQ_stk, TASK_STACKSIZE);
 
@@ -592,13 +773,17 @@ int main(void) {
 	OSTaskCreateExt(taskCalibrate, NULL, (void *) &taskCalibrate_stk[TASK_STACKSIZE - 1],
 			TASKCALIBRATE_PRIORITY, TASKCALIBRATE_PRIORITY, taskCalibrate_stk, TASK_STACKSIZE, NULL, 0);
 
-	OSTaskCreateExt(taskUartRead, NULL, (void *) &taskUartRead_stk[TASK_STACKSIZE - 1],
-			TASKUARTREAD_PRIORITY, TASKUARTREAD_PRIORITY, taskUartRead_stk, TASK_STACKSIZE, NULL, 0);
+	OSTaskCreateExt(taskCharacterRead, NULL, (void *) &taskCharacterRead_stk[TASK_STACKSIZE - 1],
+			TASKCHARACTERREAD_PRIORITY, TASKCHARACTERREAD_PRIORITY, taskCharacterRead_stk, TASK_STACKSIZE, NULL, 0);
 
+	OSTaskCreateExt(taskTemplateMatch, NULL, (void *) &taskTemplateMatch_stk[TASK_STACKSIZE - 1],
+			TASKTEMPLATEMATCH_PRIORITY, TASKTEMPLATEMATCH_PRIORITY, taskTemplateMatch_stk, TASK_STACKSIZE, NULL, 0);
 
 	OSTaskCreateExt(taskDTWX, NULL, (void *) &taskDTWX_stk[TASK_STACKSIZE - 1],
 			TASKDTWX_PRIORITY, TASKDTWX_PRIORITY, taskDTWX_stk, TASK_STACKSIZE, NULL, 0);
 
+	OSTaskCreateExt(taskDTWY, NULL, (void *) &taskDTWY_stk[TASK_STACKSIZE - 1],
+			TASKDTWY_PRIORITY, TASKDTWY_PRIORITY, taskDTWY_stk, TASK_STACKSIZE, NULL, 0);
 
 	OSTaskCreateExt(taskReadSDCard, NULL, (void *) &taskReadSDCard_stk[TASK_STACKSIZE - 1],
 			TASKREADSDCARD_PRIORITY, TASKREADSDCARD_PRIORITY, taskReadSDCard_stk, TASK_STACKSIZE, NULL, 0);
