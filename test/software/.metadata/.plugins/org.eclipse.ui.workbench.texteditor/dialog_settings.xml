@@ -13,16 +13,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="dtw_sem" key="selection"/>
+		<item value="short int" key="selection"/>
 		<list key="findhistory">
-			<item value="dtw_sem"/>
-			<item value="accept"/>
-			<item value="ossempend"/>
-			<item value="message"/>
-			<item value="error_m"/>
-			<item value="templatem"/>
-			<item value="template"/>
-			<item value="TASKUARTREAD"/>
+			<item value="short int"/>
+			<item value="index"/>
+			<item value="index +"/>
+			<item value=".size"/>
+			<item value="templates"/>
+			<item value="max"/>
+			<item value="read"/>
+			<item value="sd_up"/>
 		</list>
 		<list key="replacehistory">
 			<item value="TASKCHARACTERREAD"/>

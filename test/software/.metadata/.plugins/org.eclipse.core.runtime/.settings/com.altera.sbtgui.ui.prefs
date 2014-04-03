@@ -2,6 +2,6 @@
 <<<<<<<=HEAD
 >>>>>>>=6caf88fccebdd2c03ca872ae24d52ad98168957e
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\test\\software\\accelerometer_pen
-newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jchang3\\Documents\\ECE492\\NiosII\\AccelerometerPen\\accel_pen_project\\niosII_system.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\test\\software\\accelerometer_pen_bsp
+newSoftwareExampleWizardPage.defaultLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\test\\software\\accelerometer_pen80
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\Users\\jchang3\\Documents\\ECE492\\NiosII\\AccelerometerPen80mhz\\accel_pen_project\\niosII_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\Users\\jchang3\\Documents\\ECE492\\test\\software\\accelerometer_pen80_bsp

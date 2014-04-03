@@ -1,0 +1,87 @@
+//============================================================================
+// Name        : dtw.c
+// Author      : Group 2
+// Project     : ECE492 - Group 2 accelerometer pen
+// Description : DTW testing package using Sakoe-Chiba band boundaries for C
+//============================================================================
+
+#include "dtw.h"
+#include <math.h>
+#include <stdlib.h>
+#include "includes.h"
+#define INFIN 4294967296
+#define DTW_BASE_Y 40000
+
+unsigned long min_three(unsigned long a, unsigned long b, unsigned long c);
+int min(long a, long b);
+int max(int a, int b);
+unsigned long dist(unsigned long x, unsigned long y);
+
+/* Returns minimum of three numbers */
+unsigned long min_three(unsigned long a, unsigned long b, unsigned long c){
+	unsigned long min = a;
+	if (min > b) min = b;
+	if (min > c) min = c;
+	return min;
+}
+
+/* Returns minimum of two numbers */
+int min(int a, int b){
+	int m = a;
+	if (m > b) m = b;
+	return m;
+}
+
+/* Returns maximum of two numbers */
+long max(int a, int b){
+	int m = a;
+	if (m < b) m = b;
+	return m;
+}
+
+// Euclidean distance
+unsigned long dist(unsigned long x, unsigned long y) {
+	return (unsigned long) sqrt(((long long)(x-y))*((long long)(x-y)));
+	//return (x-y)*(x-y);
+}
+
+long dtw(long * t1, long * t2, int m, int n, int coord) {
+	int i;
+	int j;
+	unsigned long zero = 0;
+	volatile alt_u32 * pCost;
+	int window = (int)(0.1*(max(m, n))+0.5); //band size of 10% max of m or n
+	int constraint = abs(n-m);
+	window = max(window, constraint);
+
+	// create cost matrix
+	//int cost[m][n];
+	if(coord == 0){
+		pCost = ((alt_u32*) SRAM_0_BASE);// + sizeof(int)*800;
+	}
+	else{
+		pCost = ((alt_u32*) SRAM_0_BASE) + sizeof(long)*DTW_BASE_Y;
+	}
+	//long index = 0;
+	// setup initial state of matrix
+	for (i = 0; i < m; i++){
+		for (j = 0; j < n; j++){
+			*(pCost +(i*n+j)*sizeof(long)) = INFIN;
+			//cost[i][j]
+			//printf("%d\n", index++);
+		}
+	}
+	//cost[0][0] = 0;
+	*pCost = zero;
+	// fill matrix
+	for (i = 1; i < m; i++) {
+		for (j = max(1, i - window); j < min(n, i + window); j++) {
+			*(pCost +(i*n+j)*sizeof(long)) = min_three((unsigned long)(*(pCost + ((i-1)*n+j)*sizeof(long))), (unsigned long)(*(pCost +(i*n+(j-1))*sizeof(long))),
+					(unsigned long)(*(pCost +((i-1)*n+(j-1))*sizeof(long)))) + dist((unsigned long)*(t1+i*sizeof(long)), (unsigned long)*(t2+j*sizeof(long)));
+		}
+	}
+	return (unsigned long)*(pCost + ((m-1)*n+(n-1))*sizeof(long));
+	//return pCost[m - 1][n - 1];
+
+}
+

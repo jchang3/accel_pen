@@ -1,0 +1,4 @@
+bin2flash --location=0x40000 --input=data.bin --output=data.flash
+
+nios2-flash-programmer --cable="Usb-blaster [USB-0]" --base=0x200000\
+--program ext_flash.flash

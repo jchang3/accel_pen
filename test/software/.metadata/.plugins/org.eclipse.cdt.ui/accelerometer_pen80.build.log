@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project accelerometer_pen80 ****
+
+make all 
+Info: Building C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp/
+make --no-print-directory -C C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp/
+[BSP build complete]
+[accelerometer_pen80 build complete]
+
+**** Build Finished ****

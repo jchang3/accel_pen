@@ -1,0 +1,86 @@
+//============================================================================
+// Name        : dtw.c
+// Author      : Group 2
+// Project     : ECE492 - Group 2 accelerometer pen
+// Description : DTW testing package using Sakoe-Chiba band boundaries for C
+//============================================================================
+
+#include "dtw.h"
+#include <math.h>
+#include <stdlib.h>
+#include "includes.h"
+#define INFIN 2147483646
+
+long min_three(long a, long b, long c);
+long min(long a, long b);
+long max(long a, long b);
+long dist(long x, long y);
+
+/* Returns minimum of three numbers */
+long min_three(long a, long b, long c){
+	long min = a;
+	if (min > b) min = b;
+	if (min > c) min = c;
+	return min;
+}
+
+/* Returns minimum of two numbers */
+long min(long a, long b){
+	long m = a;
+	if (m > b) m = b;
+	return m;
+}
+
+/* Returns maximum of two numbers */
+long max(long a, long b){
+	long m = a;
+	if (m < b) m = b;
+	return m;
+}
+
+// Euclidean distance
+long dist(long x, long y) {
+	return sqrt((unsigned long)((x-y)*(x-y)));
+	//return (x-y)*(x-y);
+}
+
+long dtw(long * t1, long * t2, int m, int n, int coord) {
+	long i;
+	long j;
+	long window = (long)(0.1*(max(m, n))+0.5); //band size of 10% max of m or n
+	long constraint = abs(n-m);
+	window = max(window, constraint);
+
+	// create cost matrix
+	//int cost[m][n];
+	volatile alt_u32 * pCost;// = ((alt_u32*) SRAM_0_BASE);// + sizeof(int)*800;
+
+	if(coord == 0){
+		pCost = ((alt_u32*) SRAM_0_BASE);// + sizeof(int)*800;
+	}
+	else{
+		pCost = ((alt_u32*) SRAM_0_BASE) + sizeof(long)*DTW_BASE_Y;
+	}
+	//long index = 0;
+	// setup initial state of matrix
+	for (i = 0; i < m; i++){
+		for (j = 0; j < n; j++){
+			*(pCost +i*n+j) = INFIN;
+			//cost[i][j]
+			//printf("%d\n", index++);
+		}
+	}
+	//cost[0][0] = 0;
+	*pCost = 0;
+	// fill matrix
+	for (i = 1; i < m; i++) {
+		for (j = max(1, i - window); j < min(n, i + window); j++) {
+			*(pCost +i*n+j) = min_three(*(pCost +(i-1)*n+j), *(pCost +i*n+(j-1)),
+					*(pCost +(i-1)*n+(j-1))) + dist(t1[i], t2[j]);
+		}
+	}
+	return *(pCost + (m-1)*n+(n-1));
+	//return pCost[m - 1][n - 1];
+
+}
+
