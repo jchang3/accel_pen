@@ -13,26 +13,26 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="short int" key="selection"/>
+		<item value="SD Card Read" key="selection"/>
 		<list key="findhistory">
-			<item value="short int"/>
-			<item value="index"/>
-			<item value="index +"/>
-			<item value=".size"/>
-			<item value="templates"/>
-			<item value="max"/>
-			<item value="read"/>
-			<item value="sd_up"/>
+			<item value="sd card read"/>
+			<item value="sdcard read"/>
+			<item value="dtwy"/>
+			<item value="dtw"/>
+			<item value="unsigned "/>
+			<item value="unsigned"/>
+			<item value="sizeof"/>
+			<item value="debug"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
+			<item value=" "/>
+			<item value="long"/>
 			<item value="TASKCHARACTERREAD"/>
 			<item value="taskCharacterRead"/>
 			<item value="TASKDTWX"/>
 			<item value="taskDTWX"/>
 			<item value="taskUartWrite"/>
-			<item value="TASKUARTREAD"/>
-			<item value="TASKWRITESDCARD"/>
-			<item value="TASKREADSDCARD"/>
 		</list>
 	</section>
 </section>

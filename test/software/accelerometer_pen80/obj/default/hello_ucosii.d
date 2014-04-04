@@ -35,7 +35,8 @@ obj/default/hello_ucosii.o: hello_ucosii.c \
   C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp//HAL/inc/sys/alt_dev.h \
   C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp//drivers/inc/altera_up_avalon_rs232_regs.h \
   C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp//drivers/inc/altera_up_sd_card_avalon_interface.h \
-  dtw.h
+  dtw.h \
+  C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp//HAL/inc/sys/alt_cache.h
 
 C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp//HAL/inc/includes.h:
 
@@ -110,3 +111,5 @@ C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp//drivers
 C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp//drivers/inc/altera_up_sd_card_avalon_interface.h:
 
 dtw.h:
+
+C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen80_bsp//HAL/inc/sys/alt_cache.h:

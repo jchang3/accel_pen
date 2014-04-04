@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 03 16:31:51 2014
+Quartus II 32-bit Version : 12.1 Build 243 01/31/2013 SP 1.33 SJ Full Version
+Revision Name : accelerometer_pen
+Top-level Entity Name : accel_pen
+Family : Cyclone II
+Total logic elements : 7,120
+    Total combinational functions : 5,885
+    Dedicated logic registers : 4,154
+Total registers : 4154
+Total pins : 147
+Total virtual pins : 0
+Total memory bits : 202,112
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 1
