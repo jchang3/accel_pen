@@ -291,7 +291,7 @@ void taskLoadSDCard(void* pdata) {
 						a = alt_up_sd_card_read(sd_fileh);
 						//*(template[i].pX + sizeof(long)*j) = (long)(a);
 						//*(template[i].pX + sizeof(long)*j) = (long)(a*10);
-						*(((signed long*)template[i].pX) + j) = (signed long)(a*10);
+						*(((signed long*)template[i].pX) + j) = (signed long)(a);
 						//IOWR_32DIRECT(template[i].pX, j*4, (long)(a*10));
 						//*(template[i].pX + sizeof(long)*j) = (long)(alt_up_sd_card_read(sd_fileh)*10);
 						//temp = *(template[i].pX + sizeof(long)*j);
@@ -315,7 +315,7 @@ void taskLoadSDCard(void* pdata) {
 					for( j = 0;  j < template[i].size; j++){
 						a = alt_up_sd_card_read(sd_fileh);
 						//*(template[i].pY + sizeof(long)*j) = (long)(a);
-						*(((signed long*)template[i].pY) + j) = (signed long)(a*10);
+						*(((signed long*)template[i].pY) + j) = (signed long)(a);
 						//*(template[i].pY + sizeof(long)*j) = (long)(a*10);
 						//*(template[i].pY + sizeof(long)*j) = (long)(alt_up_sd_card_read(sd_fileh)*10);
 						//temp = *(template[i].pY + sizeof(long)*j);
@@ -335,7 +335,7 @@ void taskLoadSDCard(void* pdata) {
 //														printf("%ld\n", test);
 						}
 					}
-
+					AverageTemplatePattern(i);
 				}
 
 
@@ -361,6 +361,42 @@ void taskLoadSDCard(void* pdata) {
 	}
 }
 	return;
+}
+
+//todo AveragePattern
+void AverageTemplatePattern(int i)
+{
+	long prev_val_X[2] = {*(template[i].pX), *(template[i].pX+1)};
+	long prev_val_Y[2] = {*(template[i].pY), *(template[i].pY+1)};
+	for (int j = 0; j < template[i].size; j++)
+	{
+		long tempX = 0;
+		long tempY = 0;
+		if (j < template[i].size-2)
+		{
+			tempX = *((long*)template[i].pX + j);
+			tempY = *((long*)template[i].pY + j);
+			*((long*)template[i].pX + j) = (prev_val_X[1] + prev_val_X[0] + *((long*)template[i].pX + j)
+									+ *((long*)template[i].pX + (j+1)) + *((long*)template[i].pX + (j+2)))*2;
+			*((long*)template[i].pY + j) = (prev_val_Y[1] + prev_val_Y[0] + *((long*)template[i].pY + j)
+									+ *((long*)template[i].pY + (j+1)) + *((long*)template[i].pY + (j+2)))*2;
+			prev_val_X[1] = prev_val_X[0];
+			prev_val_X[0] = temp;
+			prev_val_Y[1] = prev_val_Y[0];
+			prev_val_Y[0] = temp;
+		}
+		else
+		{
+			tempX = *((long*)template[i].pX + j);
+			tempY = *((long*)template[i].pX + j);
+			*((long*)template[i].pX + j) = (prev_val_X[1] + prev_val_X[0] + *((long*)template[i].pX + j))*2;
+			*((long*)template[i].pY + j) = (prev_val_Y[1] + prev_val_Y[0] + *((long*)template[i].pY + j))*2;
+			prev_val_X[1] = prev_val_X[0];
+			prev_val_X[0] = temp;
+			prev_val_Y[1] = prev_val_Y[0];
+			prev_val_Y[0] = temp;
+		}
+	}
 }
 
 //todo taskCalibrate
@@ -687,7 +723,7 @@ void taskCharacterRead(void* pdata) {
 
 				//*(array[current_address].pX + sizeof(long)*index) = (long)(a);
 				//*(array[current_address].pX + sizeof(long)*index) = (long)(a*10);
-				*(array[current_address].pX + index) = (signed long)(a*10);
+				*(array[current_address].pX + index) = (signed long)(a);
 				//*((long*)array[current_address].pX + index) = (long)(data_R8*10);
 				//IOWR_16DIRECT(SRAM_0_BASE, DTW_BASE + index, (long)(data_R8*10));
 				//printf("x address =  0x%08x  val = %ld\n", (array[current_address].pX + index*sizeof(long)), *((long*)array[current_address].pX + index) );
@@ -700,7 +736,7 @@ void taskCharacterRead(void* pdata) {
 			else
 			if(coord == 1){
 				a = (short int)(data_R8);
-				*(array[current_address].pY + index) = (signed long)(a*10);
+				*(array[current_address].pY + index) = (signed long)(a);
 				//a = (signed char)data_R8;
 				//*(array[current_address].pY + sizeof(long)*index) = (long)(a);
 				//*(array[current_address].pY + sizeof(long)*index) = (long)(a*10);
@@ -808,7 +844,9 @@ void taskTemplateMatch(void* pdata) {
 //				}
 //			}
 //		}
-
+	
+		AverageCharReadPattern();
+		
 		for(i=0; i < 4; i++){
 			for(j=0; j < 4;j++){
 				template_number = templates[i].t[j];
@@ -926,6 +964,44 @@ void taskTemplateMatch(void* pdata) {
 
 	}
 }
+
+
+//todo AveragePattern
+void AverageCharReadPattern()
+{
+	long prev_val_X[2] = {*((long*)pCharacter->pX), *((long*)pCharacter->pX+1)};
+	long prev_val_Y[2] = {*((long*)pCharacter->pY), *((long*)pCharacter->pY+1)};
+	for (int j = 0; j < pCharacter->size; j++)
+	{
+		long tempX = 0;
+		long tempY = 0;
+		if (j < pCharacter->size-2)
+		{
+			tempX = *((long*)pCharacter->pX + j);
+			tempY = *((long*)pCharacter->pY + j);
+			*((long*)pCharacter->pX + j) = (prev_val_X[1] + prev_val_X[0] + *((long*)pCharacter->pX + j)
+									+ *((long*)pCharacter->pX + (j+1)) + *((long*)pCharacter->pX + (j+2)))*2;
+			*((long*)pCharacter->pY + j) = (prev_val_Y[1] + prev_val_Y[0] + *((long*)pCharacter->pY + j)
+									+ *((long*)pCharacter->pY + (j+1)) + *((long*)pCharacter->pY + (j+2)))*2;
+			prev_val_X[1] = prev_val_X[0];
+			prev_val_X[0] = temp;
+			prev_val_Y[1] = prev_val_Y[0];
+			prev_val_Y[0] = temp;
+		}
+		else
+		{
+			tempX = *((long*)pCharacter->pX + j);
+			tempY = *((long*)pCharacter->pX + j);
+			*((long*)pCharacter->pX + j) = (prev_val_X[1] + prev_val_X[0] + *((long*)pCharacter->pX + j))*2;
+			*((long*)pCharacter->pY + j) = (prev_val_Y[1] + prev_val_Y[0] + *((long*)pCharacter->pY + j))*2;
+			prev_val_X[1] = prev_val_X[0];
+			prev_val_X[0] = temp;
+			prev_val_Y[1] = prev_val_Y[0];
+			prev_val_Y[0] = temp;
+		}
+	}
+}
+
 
 /* Performs DTW on X coordinates */
 void taskDTWX(void* pdata) {
