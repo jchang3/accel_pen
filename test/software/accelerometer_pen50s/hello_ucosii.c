@@ -397,10 +397,16 @@ void taskLoadSDCard(void* pdata) {
 //todo AveragePattern
 void AverageTemplatePattern(int i)
 {
+<<<<<<< HEAD
 	int j;
 	long prev_val_X[2] = {*(template[i].pX), *(template[i].pX+1)};
 	long prev_val_Y[2] = {*(template[i].pY), *(template[i].pY+1)};
 	for (j = 0; j < template[i].size; j++)
+=======
+	long prev_val_X[2] = {*(template[i].pX), *(template[i].pX+1)};
+	long prev_val_Y[2] = {*(template[i].pY), *(template[i].pY+1)};
+	for (int j = 0; j < template[i].size; j++)
+>>>>>>> 00f559594b5449deadd2fc9587f15ee4dfdb8763
 	{
 		long tempX = 0;
 		long tempY = 0;
@@ -413,9 +419,15 @@ void AverageTemplatePattern(int i)
 			*((long*)template[i].pY + j) = (prev_val_Y[1] + prev_val_Y[0] + *((long*)template[i].pY + j)
 									+ *((long*)template[i].pY + (j+1)) + *((long*)template[i].pY + (j+2)))*2;
 			prev_val_X[1] = prev_val_X[0];
+<<<<<<< HEAD
 			prev_val_X[0] = tempX;
 			prev_val_Y[1] = prev_val_Y[0];
 			prev_val_Y[0] = tempY;
+=======
+			prev_val_X[0] = temp;
+			prev_val_Y[1] = prev_val_Y[0];
+			prev_val_Y[0] = temp;
+>>>>>>> 00f559594b5449deadd2fc9587f15ee4dfdb8763
 		}
 		else
 		{
@@ -424,9 +436,15 @@ void AverageTemplatePattern(int i)
 			*((long*)template[i].pX + j) = (prev_val_X[1] + prev_val_X[0] + *((long*)template[i].pX + j))*2;
 			*((long*)template[i].pY + j) = (prev_val_Y[1] + prev_val_Y[0] + *((long*)template[i].pY + j))*2;
 			prev_val_X[1] = prev_val_X[0];
+<<<<<<< HEAD
 			prev_val_X[0] = tempX;
 			prev_val_Y[1] = prev_val_Y[0];
 			prev_val_Y[0] = tempY;
+=======
+			prev_val_X[0] = temp;
+			prev_val_Y[1] = prev_val_Y[0];
+			prev_val_Y[0] = temp;
+>>>>>>> 00f559594b5449deadd2fc9587f15ee4dfdb8763
 		}
 	}
 }
@@ -891,6 +909,7 @@ void taskTemplateMatch(void* pdata) {
 //				}
 //			}
 //		}
+<<<<<<< HEAD
 		lcdbuffer = "Processing...\0";
 		OSQPost(lcdmessage, lcdbuffer);
 		AverageCharReadPattern();
@@ -909,6 +928,11 @@ void taskTemplateMatch(void* pdata) {
 
 		}
 
+=======
+	
+		AverageCharReadPattern();
+		
+>>>>>>> 00f559594b5449deadd2fc9587f15ee4dfdb8763
 		for(i=0; i < 4; i++){
 			for(j=0; j < 4;j++){
 				template_number = templates[i].t[j];
@@ -1046,10 +1070,16 @@ void taskTemplateMatch(void* pdata) {
 //todo AveragePattern
 void AverageCharReadPattern()
 {
+<<<<<<< HEAD
 	int j;
 	long prev_val_X[2] = {*((long*)pCharacter->pX), *((long*)pCharacter->pX+1)};
 	long prev_val_Y[2] = {*((long*)pCharacter->pY), *((long*)pCharacter->pY+1)};
 	for (j = 0; j < pCharacter->size; j++)
+=======
+	long prev_val_X[2] = {*((long*)pCharacter->pX), *((long*)pCharacter->pX+1)};
+	long prev_val_Y[2] = {*((long*)pCharacter->pY), *((long*)pCharacter->pY+1)};
+	for (int j = 0; j < pCharacter->size; j++)
+>>>>>>> 00f559594b5449deadd2fc9587f15ee4dfdb8763
 	{
 		long tempX = 0;
 		long tempY = 0;
@@ -1062,9 +1092,15 @@ void AverageCharReadPattern()
 			*((long*)pCharacter->pY + j) = (prev_val_Y[1] + prev_val_Y[0] + *((long*)pCharacter->pY + j)
 									+ *((long*)pCharacter->pY + (j+1)) + *((long*)pCharacter->pY + (j+2)))*2;
 			prev_val_X[1] = prev_val_X[0];
+<<<<<<< HEAD
 			prev_val_X[0] = tempX;
 			prev_val_Y[1] = prev_val_Y[0];
 			prev_val_Y[0] = tempY;
+=======
+			prev_val_X[0] = temp;
+			prev_val_Y[1] = prev_val_Y[0];
+			prev_val_Y[0] = temp;
+>>>>>>> 00f559594b5449deadd2fc9587f15ee4dfdb8763
 		}
 		else
 		{
@@ -1073,9 +1109,15 @@ void AverageCharReadPattern()
 			*((long*)pCharacter->pX + j) = (prev_val_X[1] + prev_val_X[0] + *((long*)pCharacter->pX + j))*2;
 			*((long*)pCharacter->pY + j) = (prev_val_Y[1] + prev_val_Y[0] + *((long*)pCharacter->pY + j))*2;
 			prev_val_X[1] = prev_val_X[0];
+<<<<<<< HEAD
 			prev_val_X[0] = tempX;
 			prev_val_Y[1] = prev_val_Y[0];
 			prev_val_Y[0] = tempY;
+=======
+			prev_val_X[0] = temp;
+			prev_val_Y[1] = prev_val_Y[0];
+			prev_val_Y[0] = temp;
+>>>>>>> 00f559594b5449deadd2fc9587f15ee4dfdb8763
 		}
 	}
 }
