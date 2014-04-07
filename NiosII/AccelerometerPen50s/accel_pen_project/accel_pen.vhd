@@ -87,6 +87,7 @@ library ieee;
 		
 				-- ports for seven segment		
 		HEX0			:	out DE2_SEVEN_SEGMENT;
+
 		
 		-- Green leds on board
 		LEDG		: out DE2_LED_GREEN
@@ -155,6 +156,7 @@ begin
 	
 	DRAM_UDQM <= DQM(1);
 	DRAM_LDQM <= DQM(0);
+	
 	
 	-- Component Instantiation Statement (optional)
 	

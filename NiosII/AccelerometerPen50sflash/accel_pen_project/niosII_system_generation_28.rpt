@@ -1,0 +1,53 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/Users/jchang3/Documents/ECE492/NiosII/AccelerometerPen50sflash/accel_pen_project/ --output-directory=C:/Users/jchang3/Documents/ECE492/NiosII/AccelerometerPen50sflash/accel_pen_project/niosII_system/ --report-file=bsf:C:/Users/jchang3/Documents/ECE492/NiosII/AccelerometerPen50sflash/accel_pen_project/niosII_system.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C35F672C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:/Users/jchang3/Documents/ECE492/NiosII/AccelerometerPen50sflash/accel_pen_project/niosII_system.qsys
+Progress: Loading accel_pen_project/niosII_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 12.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 12.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Adding timer_0 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding character_lcd_0 [altera_up_avalon_character_lcd 12.0]
+Progress: Parameterizing module character_lcd_0
+Progress: Adding altpll_0 [altpll 12.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding sdram_0 [altera_avalon_new_sdram_controller 12.1]
+Progress: Parameterizing module sdram_0
+Progress: Adding sram_0 [altera_up_avalon_sram 12.0]
+Progress: Parameterizing module sram_0
+Progress: Adding rs232_0 [altera_up_avalon_rs232 12.0]
+Progress: Parameterizing module rs232_0
+Progress: Adding switch [altera_avalon_pio 12.1]
+Progress: Parameterizing module switch
+Progress: Adding generic_tristate_controller_0 [altera_generic_tristate_controller 12.1]
+Progress: Parameterizing module generic_tristate_controller_0
+Progress: Adding tristate_conduit_bridge_0 [altera_tristate_conduit_bridge 12.1]
+Progress: Parameterizing module tristate_conduit_bridge_0
+Progress: Adding tristate_conduit_pin_sharer_0 [altera_tristate_conduit_pin_sharer 12.1]
+Progress: Parameterizing module tristate_conduit_pin_sharer_0
+Progress: Adding Altera_UP_SD_Card_Avalon_Interface_0 [Altera_UP_SD_Card_Avalon_Interface 1.0]
+Progress: Parameterizing module Altera_UP_SD_Card_Avalon_Interface_0
+Progress: Adding seven_seg_8_0 [seven_seg_8 1.0]
+Progress: Parameterizing module seven_seg_8_0
+Progress: Adding green_leds [altera_avalon_pio 12.1]
+Progress: Parameterizing module green_leds
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: niosII_system.onchip_memory2_0: Memory will be initialized from onchip_memory2_0.hex
+Info: niosII_system.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: niosII_system.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: niosII_system.switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: niosII_system.altpll_0: altpll_0.areset_conduit must be exported, or connected to a matching conduit.
+Warning: niosII_system.altpll_0: altpll_0.locked_conduit must be exported, or connected to a matching conduit.
+Warning: niosII_system.altpll_0: altpll_0.phasedone_conduit must be exported, or connected to a matching conduit.
+Info: ip-generate succeeded.
+Info: Stopping: Create block symbol file (.bsf)

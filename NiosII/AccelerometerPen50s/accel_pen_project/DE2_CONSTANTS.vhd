@@ -44,5 +44,4 @@ package DE2_CONSTANTS is
 	constant sev_seg_e	:  std_logic_vector( 6 downto 0)	:= not b"1111001"; 	-- ~0x79
 	constant sev_seg_f	:  std_logic_vector( 6 downto 0)	:= not b"1110001"; 	-- ~0x71
 	
-	
 end DE2_CONSTANTS;

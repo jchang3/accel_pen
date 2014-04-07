@@ -1836,3 +1836,798 @@ java.lang.Exception
 
 !ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 13:58:54.994
 !MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396604766 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+!SESSION 2014-04-04 15:47:35.320 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 17:04:19.162
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 17:04:19.169
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-04-04 17:08:20.381
+!MESSAGE Indexed 'accelerometer_pen50sf_bsp' (96 sources, 69 headers) in 0.84 sec: 2,650 declarations; 12,281 references; 131 unresolved inclusions; 5 syntax errors; 229 unresolved names (1.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-04-04 17:08:21.543
+!MESSAGE Indexed 'accelerometer_pen50sf' (1 sources, 13 headers) in 0.02 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 103 2014-04-04 17:14:37.710
+!MESSAGE Project accelerometer_pen50s is closed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 17:15:01.818
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1396564230", expected: "1396652385".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 17:15:01.820
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1396564230", expected: "1396652385".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 17:19:17.443
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 17:19:19.040
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 17:19:22.858
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x1909458, --id=0x0, /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 17:19:22.861
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 17:21:59.897
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396652385]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 17:22:01.557
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396652385 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 17:22:05.437
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x1909458, --id=0x0, --timestamp=1396652385, /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 17:22:05.440
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 18:28:51.946
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396657303]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 18:28:53.604
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396657303 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 18:28:57.487
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x1909458, --id=0x0, --timestamp=1396657303, /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 18:28:57.489
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 18:29:21.315
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396657303]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 18:29:22.973
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396657303 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 18:29:26.844
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x1909458, --id=0x0, --timestamp=1396657303, /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 18:29:26.846
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 18:42:57.493
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396657303]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 18:42:59.144
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396657303 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 18:43:03.008
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x1909458, --id=0x0, --timestamp=1396657303, /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 18:43:03.011
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 19:16:31.069
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396659374]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 19:16:32.729
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396659374 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 19:16:36.609
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x1909458, --id=0x0, --timestamp=1396659374, /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sf/accelerometer_pen50sf.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 19:16:36.611
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-04-04 19:19:42.523
+!MESSAGE Indexed 'accelerometer_pen50sflash_bsp' (96 sources, 69 headers) in 0.64 sec: 2,650 declarations; 12,281 references; 131 unresolved inclusions; 5 syntax errors; 229 unresolved names (1.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-04-04 19:19:43.736
+!MESSAGE Indexed 'accelerometer_pen50sflash' (1 sources, 13 headers) in 0.01 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 103 2014-04-04 19:58:05.495
+!MESSAGE Project accelerometer_pen50sf does not exist. Please check that your launch configuration specifies a valid project in your workspace.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 19:58:57.027
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396604766]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 19:58:58.696
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396604766 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 19:59:25.647
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396604766]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 19:59:27.311
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396604766 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 20:01:25.266
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396604766]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 20:01:26.930
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396604766 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 20:03:44.044
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 20:03:44.443
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396604766]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 20:03:46.110
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396604766 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 21:48:22.548
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1396668021", expected: "1396604766".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2014-04-04 21:48:22.550
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1396668021", expected: "1396604766".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:49:12.353
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:49:14.056
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:51:10.825
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:51:11.224
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:51:12.888
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:52:44.912
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:52:46.572
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:53:10.963
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:53:12.623
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:54:25.038
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:54:25.427
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:54:27.098
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:54:51.305
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:54:51.698
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:54:53.362
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:56:26.978
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:56:28.647
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:57:42.719
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:57:43.118
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:57:47.148
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:59:46.812
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 21:59:50.815
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:00:58.992
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:01:03.019
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:01:44.951
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:01:48.924
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:02:31.064
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:02:35.048
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:04:01.272
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:04:05.305
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:05:27.672
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:05:29.340
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:07:10.533
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:07:10.929
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:07:12.607
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:07:56.580
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:07:56.977
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:07:58.642
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:08:46.213
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:08:47.879
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:09:38.598
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:09:40.268
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:09:54.242
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:09:54.644
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:09:56.307
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:10:37.703
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:10:39.371
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:10:57.355
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:10:57.757
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:10:59.421
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:11:24.156
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:11:24.555
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:11:26.218
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:11:52.884
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:11:54.551
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:12:45.061
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:12:45.465
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:12:47.139
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:13:29.041
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:13:29.439
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:13:31.105
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:13:54.936
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:13:55.331
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:13:56.998
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:14:13.319
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:14:14.981
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:19:40.996
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:19:41.389
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:19:43.050
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:20:01.539
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:20:03.195
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:20:13.251
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:20:17.206
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:21:37.291
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:21:41.255
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:22:00.054
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:22:00.468
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:22:02.126
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:22:11.805
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:22:15.730
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:36:00.260
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:36:01.933
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:39:51.095
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 22:39:52.768
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY org.eclipse.cdt.core 2 0 2014-04-04 22:58:52.555
+!MESSAGE Formatting problem(s) in 'C:\Users\jchang3\Documents\ECE492\test\software\accelerometer_pen50s\hello_ucosii.c'
+!SUBENTRY 1 org.eclipse.cdt.core 2 0 2014-04-04 22:58:52.555
+!MESSAGE [959/1] Unexpected token type, expecting:13, actual:Token type=76  image =else offset=30174
+!STACK 0
+org.eclipse.cdt.internal.formatter.AbortFormatting: [959/1] Unexpected token type, expecting:13, actual:Token type=76  image =else offset=30174
+	at org.eclipse.cdt.internal.formatter.Scribe.printNextToken(Scribe.java:1643)
+	at org.eclipse.cdt.internal.formatter.Scribe.printNextToken(Scribe.java:1620)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatClosingBrace(CodeFormatterVisitor.java:4139)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatOpenedBlock(CodeFormatterVisitor.java:4105)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatBlock(CodeFormatterVisitor.java:4065)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:2187)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:930)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTCompoundStatement.accept(CASTCompoundStatement.java:69)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:3345)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:940)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTIfStatement.accept(CASTIfStatement.java:118)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:3417)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:940)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTIfStatement.accept(CASTIfStatement.java:118)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatStatements(CodeFormatterVisitor.java:4166)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatOpenedBlock(CodeFormatterVisitor.java:4090)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatBlock(CodeFormatterVisitor.java:4065)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatAction(CodeFormatterVisitor.java:3959)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:3745)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:946)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTWhileStatement.accept(CASTWhileStatement.java:83)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatStatements(CodeFormatterVisitor.java:4187)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatOpenedBlock(CodeFormatterVisitor.java:4090)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatBlock(CodeFormatterVisitor.java:4065)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:1370)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatDeclaration(CodeFormatterVisitor.java:643)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:633)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTFunctionDefinition.accept(CASTFunctionDefinition.java:118)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatDeclarations(CodeFormatterVisitor.java:503)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:447)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:275)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.format(CodeFormatterVisitor.java:393)
+	at org.eclipse.cdt.internal.formatter.CCodeFormatter.format(CCodeFormatter.java:152)
+	at org.eclipse.cdt.internal.corext.util.CodeFormatterUtil.format(CodeFormatterUtil.java:129)
+	at org.eclipse.cdt.internal.ui.text.CFormattingStrategy.format(CFormattingStrategy.java:62)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.formatMaster(MultiPassContentFormatter.java:193)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.format(MultiPassContentFormatter.java:135)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:977)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1452)
+	at org.eclipse.cdt.internal.ui.editor.CSourceViewer.doOperation(CSourceViewer.java:387)
+	at org.eclipse.cdt.internal.ui.editor.CEditor$AdaptedSourceViewer.doOperation(CEditor.java:353)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:128)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:126)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1509)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2531)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.cdt.core 2 0 2014-04-04 22:59:12.033
+!MESSAGE Formatting problem(s) in 'C:\Users\jchang3\Documents\ECE492\test\software\accelerometer_pen50s\hello_ucosii.c'
+!SUBENTRY 1 org.eclipse.cdt.core 2 0 2014-04-04 22:59:12.033
+!MESSAGE [960/1] Unexpected token type, expecting:13, actual:Token type=76  image =else offset=30221
+!STACK 0
+org.eclipse.cdt.internal.formatter.AbortFormatting: [960/1] Unexpected token type, expecting:13, actual:Token type=76  image =else offset=30221
+	at org.eclipse.cdt.internal.formatter.Scribe.printNextToken(Scribe.java:1643)
+	at org.eclipse.cdt.internal.formatter.Scribe.printNextToken(Scribe.java:1620)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatClosingBrace(CodeFormatterVisitor.java:4139)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatOpenedBlock(CodeFormatterVisitor.java:4105)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatBlock(CodeFormatterVisitor.java:4065)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:2187)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:930)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTCompoundStatement.accept(CASTCompoundStatement.java:69)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:3345)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:940)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTIfStatement.accept(CASTIfStatement.java:118)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:3417)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:940)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTIfStatement.accept(CASTIfStatement.java:118)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatStatements(CodeFormatterVisitor.java:4166)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatOpenedBlock(CodeFormatterVisitor.java:4090)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatBlock(CodeFormatterVisitor.java:4065)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatAction(CodeFormatterVisitor.java:3959)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:3745)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:946)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTWhileStatement.accept(CASTWhileStatement.java:83)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatStatements(CodeFormatterVisitor.java:4187)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatOpenedBlock(CodeFormatterVisitor.java:4090)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatBlock(CodeFormatterVisitor.java:4065)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:1370)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatDeclaration(CodeFormatterVisitor.java:643)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:633)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTFunctionDefinition.accept(CASTFunctionDefinition.java:118)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatDeclarations(CodeFormatterVisitor.java:503)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:447)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:275)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.format(CodeFormatterVisitor.java:393)
+	at org.eclipse.cdt.internal.formatter.CCodeFormatter.format(CCodeFormatter.java:152)
+	at org.eclipse.cdt.internal.corext.util.CodeFormatterUtil.format(CodeFormatterUtil.java:129)
+	at org.eclipse.cdt.internal.ui.text.CFormattingStrategy.format(CFormattingStrategy.java:62)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.formatMaster(MultiPassContentFormatter.java:193)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.format(MultiPassContentFormatter.java:135)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:977)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1452)
+	at org.eclipse.cdt.internal.ui.editor.CSourceViewer.doOperation(CSourceViewer.java:387)
+	at org.eclipse.cdt.internal.ui.editor.CEditor$AdaptedSourceViewer.doOperation(CEditor.java:353)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:128)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:126)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1509)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2531)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.cdt.core 2 0 2014-04-04 22:59:23.237
+!MESSAGE Formatting problem(s) in 'C:\Users\jchang3\Documents\ECE492\test\software\accelerometer_pen50s\hello_ucosii.c'
+!SUBENTRY 1 org.eclipse.cdt.core 2 0 2014-04-04 22:59:23.238
+!MESSAGE [960/1] Unexpected token type, expecting:13, actual:Token type=76  image =else offset=30221
+!STACK 0
+org.eclipse.cdt.internal.formatter.AbortFormatting: [960/1] Unexpected token type, expecting:13, actual:Token type=76  image =else offset=30221
+	at org.eclipse.cdt.internal.formatter.Scribe.printNextToken(Scribe.java:1643)
+	at org.eclipse.cdt.internal.formatter.Scribe.printNextToken(Scribe.java:1620)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatClosingBrace(CodeFormatterVisitor.java:4139)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatOpenedBlock(CodeFormatterVisitor.java:4105)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatBlock(CodeFormatterVisitor.java:4065)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:2187)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:930)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTCompoundStatement.accept(CASTCompoundStatement.java:69)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:3345)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:940)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTIfStatement.accept(CASTIfStatement.java:118)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:3417)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:940)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTIfStatement.accept(CASTIfStatement.java:118)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatStatements(CodeFormatterVisitor.java:4166)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatOpenedBlock(CodeFormatterVisitor.java:4090)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatBlock(CodeFormatterVisitor.java:4065)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatAction(CodeFormatterVisitor.java:3959)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:3745)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:946)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTWhileStatement.accept(CASTWhileStatement.java:83)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatStatements(CodeFormatterVisitor.java:4187)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatOpenedBlock(CodeFormatterVisitor.java:4090)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatBlock(CodeFormatterVisitor.java:4065)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:1370)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatDeclaration(CodeFormatterVisitor.java:643)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:633)
+	at org.eclipse.cdt.internal.core.dom.parser.c.CASTFunctionDefinition.accept(CASTFunctionDefinition.java:118)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.formatDeclarations(CodeFormatterVisitor.java:503)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.visit(CodeFormatterVisitor.java:447)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:275)
+	at org.eclipse.cdt.internal.formatter.CodeFormatterVisitor.format(CodeFormatterVisitor.java:393)
+	at org.eclipse.cdt.internal.formatter.CCodeFormatter.format(CCodeFormatter.java:152)
+	at org.eclipse.cdt.internal.corext.util.CodeFormatterUtil.format(CodeFormatterUtil.java:129)
+	at org.eclipse.cdt.internal.ui.text.CFormattingStrategy.format(CFormattingStrategy.java:62)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.formatMaster(MultiPassContentFormatter.java:193)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.format(MultiPassContentFormatter.java:135)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:977)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1452)
+	at org.eclipse.cdt.internal.ui.editor.CSourceViewer.doOperation(CSourceViewer.java:387)
+	at org.eclipse.cdt.internal.ui.editor.CEditor$AdaptedSourceViewer.doOperation(CEditor.java:353)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:128)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:126)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.ui.commands.ActionHandler.execute(ActionHandler.java:185)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(LegacyHandlerWrapper.java:109)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:468)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:786)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:885)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:567)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:508)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1509)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2531)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 23:01:50.471
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 23:01:52.137
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 23:03:03.223
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-04 23:03:04.891
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-05 00:36:42.127
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-05 00:36:43.785
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-05 00:37:16.038
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-05 00:37:17.694
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-05 00:39:23.777
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-05 00:39:24.176
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1909458 --id=0x0 --timestamp=1396668021]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2014-04-05 00:39:25.840
+!MESSAGE Executing: [C:/altera/12.1sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1909458 --id=0x0 --timestamp=1396668021 /cygdrive/c/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50s/accelerometer_pen50s.elf]
