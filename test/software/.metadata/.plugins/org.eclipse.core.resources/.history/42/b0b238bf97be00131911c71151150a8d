@@ -329,7 +329,6 @@ void taskCalibrate(void* pdata) {
 	int current_address = -1;
 	char* lcdbuffer = "Calibrating\0";
 	int reading = 0;
-	char message[sizeof(int)*CHAR_BIT +1];
 
 	for(i=0; i < TEMP_ARRAY_BUFF_SIZE; i++){
 		array_8[i].pX = (alt_8*)((alt_u8*) SRAM_0_BASE) + sizeof(signed char)*(DTW_BASE + INPUT_SIZE*i);
@@ -393,12 +392,10 @@ void taskCalibrate(void* pdata) {
 				if (start == 2) {
 					array_8[current_address].size = index;
 					if(current_address != TEMP_ARRAY_BUFF_SIZE - 1 ){
-						snprintf(message, sizeof(message), "Finished reading character %d, write character %d...\n", current_address, current_address + 1);
-						OSQPost(message, lcdbuffer);
+						printf("Finished reading character %d, write character %d...\n", current_address, current_address + 1);
 					}
 					else{
-						snprintf(message, sizeof(message), "Finished reading character %d, Starting SDCard Write Task\n", current_address);
-						OSQPost(lcdmessage, lcdbuffer);
+						printf("Finished reading character %d, Starting SDCard Write Task\n", current_address);
 						OSSemPost(writesem);
 						OSSemPend(configuresem, 0, &err);
 					}

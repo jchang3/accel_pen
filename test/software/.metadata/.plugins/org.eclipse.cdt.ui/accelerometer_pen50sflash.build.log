@@ -5,44 +5,40 @@ make all
 Info: Building C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp/
 make --no-print-directory -C C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp/
 [BSP build complete]
-Info: Compiling dtw.c to obj/default/dtw.o
-nios2-elf-gcc -xc -MP -MMD -c -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//UCOSII/inc -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//HAL/inc -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp/ -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dtw.o dtw.c
-Info: Compiling hello_ucosii.c to obj/default/hello_ucosii.o
-nios2-elf-gcc -xc -MP -MMD -c -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//UCOSII/inc -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//HAL/inc -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp/ -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/hello_ucosii.o hello_ucosii.c
-hello_ucosii.c: In function 'taskLcdPrint':
-hello_ucosii.c:240: warning: implicit declaration of function 'alt_printf'
-hello_ucosii.c: In function 'taskLoadSDCard':
-hello_ucosii.c:274: warning: assignment from incompatible pointer type
-hello_ucosii.c:276: warning: assignment from incompatible pointer type
-hello_ucosii.c:369: warning: implicit declaration of function 'AverageTemplatePattern'
-hello_ucosii.c:266: warning: unused variable 'temp'
-hello_ucosii.c: At top level:
-hello_ucosii.c:399: warning: conflicting types for 'AverageTemplatePattern'
-hello_ucosii.c:369: warning: previous implicit declaration of 'AverageTemplatePattern' was here
-hello_ucosii.c: In function 'taskCalibrate':
-hello_ucosii.c:488: warning: pointer targets in passing argument 2 of 'alt_up_rs232_read_data' differ in signedness
-hello_ucosii.c:488: warning: passing argument 3 of 'alt_up_rs232_read_data' from incompatible pointer type
-hello_ucosii.c: In function 'taskWriteSDCard':
-hello_ucosii.c:566: warning: unused variable 'a'
-hello_ucosii.c: In function 'taskCharacterRead':
-hello_ucosii.c:751: warning: pointer targets in passing argument 2 of 'alt_up_rs232_read_data' differ in signedness
-hello_ucosii.c:751: warning: passing argument 3 of 'alt_up_rs232_read_data' from incompatible pointer type
-hello_ucosii.c: In function 'taskTemplateMatch':
-hello_ucosii.c:896: warning: implicit declaration of function 'AverageCharReadPattern'
-hello_ucosii.c:932: warning: format '%ld' expects type 'long int', but argument 3 has type 'long long int'
-hello_ucosii.c:932: warning: format '%ld' expects type 'long int', but argument 3 has type 'long long int'
-hello_ucosii.c:945: warning: format '%ld' expects type 'long int', but argument 3 has type 'long long int'
-hello_ucosii.c:945: warning: format '%ld' expects type 'long int', but argument 3 has type 'long long int'
-hello_ucosii.c:847: warning: unused variable 'match_group'
-hello_ucosii.c:846: warning: unused variable 'sec_best_match'
-hello_ucosii.c: At top level:
-hello_ucosii.c:1048: warning: conflicting types for 'AverageCharReadPattern'
-hello_ucosii.c:896: warning: previous implicit declaration of 'AverageCharReadPattern' was here
-hello_ucosii.c: In function 'main':
-hello_ucosii.c:1167: warning: passing argument 1 of 'OSQCreate' from incompatible pointer type
-hello_ucosii.c:1168: warning: passing argument 1 of 'OSQCreate' from incompatible pointer type
+Info: Compiling accelerometer_pen50sflash.c to obj/default/accelerometer_pen50sflash.o
+nios2-elf-gcc -xc -MP -MMD -c -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//UCOSII/inc -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//HAL/inc -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp/ -IC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/accelerometer_pen50sflash.o accelerometer_pen50sflash.c
+accelerometer_pen50sflash.c: In function 'taskLcdPrint':
+accelerometer_pen50sflash.c:194: warning: implicit declaration of function 'alt_printf'
+accelerometer_pen50sflash.c: In function 'taskLoadSDCard':
+accelerometer_pen50sflash.c:220: warning: assignment from incompatible pointer type
+accelerometer_pen50sflash.c:221: warning: assignment from incompatible pointer type
+accelerometer_pen50sflash.c:273: warning: implicit declaration of function 'AverageTemplatePattern'
+accelerometer_pen50sflash.c: At top level:
+accelerometer_pen50sflash.c:286: warning: conflicting types for 'AverageTemplatePattern'
+accelerometer_pen50sflash.c:273: warning: previous implicit declaration of 'AverageTemplatePattern' was here
+accelerometer_pen50sflash.c: In function 'taskCalibrate':
+accelerometer_pen50sflash.c:357: warning: pointer targets in passing argument 2 of 'alt_up_rs232_read_data' differ in signedness
+accelerometer_pen50sflash.c:357: warning: passing argument 3 of 'alt_up_rs232_read_data' from incompatible pointer type
+accelerometer_pen50sflash.c:397: warning: passing argument 1 of 'OSQPost' from incompatible pointer type
+accelerometer_pen50sflash.c: In function 'taskCharacterRead':
+accelerometer_pen50sflash.c:564: warning: pointer targets in passing argument 2 of 'alt_up_rs232_read_data' differ in signedness
+accelerometer_pen50sflash.c:564: warning: passing argument 3 of 'alt_up_rs232_read_data' from incompatible pointer type
+accelerometer_pen50sflash.c: In function 'taskTemplateMatch':
+accelerometer_pen50sflash.c:652: warning: implicit declaration of function 'AverageCharReadPattern'
+accelerometer_pen50sflash.c:677: warning: format '%ld' expects type 'long int', but argument 3 has type 'long long int'
+accelerometer_pen50sflash.c:677: warning: format '%ld' expects type 'long int', but argument 3 has type 'long long int'
+accelerometer_pen50sflash.c:688: warning: format '%ld' expects type 'long int', but argument 3 has type 'long long int'
+accelerometer_pen50sflash.c:688: warning: format '%ld' expects type 'long int', but argument 3 has type 'long long int'
+accelerometer_pen50sflash.c:638: warning: unused variable 'match_group'
+accelerometer_pen50sflash.c:637: warning: unused variable 'sec_best_match'
+accelerometer_pen50sflash.c: At top level:
+accelerometer_pen50sflash.c:713: warning: conflicting types for 'AverageCharReadPattern'
+accelerometer_pen50sflash.c:652: warning: previous implicit declaration of 'AverageCharReadPattern' was here
+accelerometer_pen50sflash.c: In function 'main':
+accelerometer_pen50sflash.c:777: warning: passing argument 1 of 'OSQCreate' from incompatible pointer type
+accelerometer_pen50sflash.c:778: warning: passing argument 1 of 'OSQCreate' from incompatible pointer type
 Info: Linking accelerometer_pen50sflash.elf
-nios2-elf-g++  -T'C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//linker.x' -msys-crt0='C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -LC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp/   -Wl,-Map=accelerometer_pen50sflash.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o accelerometer_pen50sflash.elf obj/default/dtw.o obj/default/hello_ucosii.o -lm 
+nios2-elf-g++  -T'C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//linker.x' -msys-crt0='C:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -LC:/Users/jchang3/Documents/ECE492/test/software/accelerometer_pen50sflash_bsp/   -Wl,-Map=accelerometer_pen50sflash.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o accelerometer_pen50sflash.elf obj/default/accelerometer_pen50sflash.o obj/default/dtw.o -lm 
 nios2-elf-insert accelerometer_pen50sflash.elf --thread_model ucosii --cpu_name nios2_qsys_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1909458 --timestamp 1396679091 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name niosII_system --quartus_project_dir "c:/Users/jchang3/Documents/ECE492/NiosII/AccelerometerPen50sflash/accel_pen_project" --jdi C:/Users/jchang3/Documents/ECE492/NiosII/AccelerometerPen50sflash/accel_pen_project/accelerometer_pen.jdi --sopcinfo C:/Users/jchang3/Documents/ECE492/NiosII/AccelerometerPen50sflash/accel_pen_project/niosII_system.sopcinfo
 Info: (accelerometer_pen50sflash.elf) 221 KBytes program size (code + initialized data).
 Info:                                 7971 KBytes free for stack + heap.

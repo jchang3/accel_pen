@@ -142,8 +142,8 @@ ACDS_VERSION := 12.1sp1
 ELF := accelerometer_pen50s.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += hello_ucosii.c
 C_SRCS += dtw.c
+C_SRCS += accelerometer_pen50s.c
 CXX_SRCS :=
 ASM_SRCS :=
 
